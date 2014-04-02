@@ -141,6 +141,9 @@ libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a989252
 ; Patches
 ;
 
+; template_preprocess_entity does not check for existing 'path' index
+projects[entity][patch][2003826] = http://drupal.org/files/2003826-16-check_path_index_uri.patch
+
 ; Add idLookup as an option for UPSERT key
 projects[salesforce][patch][1951728] = http://drupal.org/files/salesforce-externalId_and_idLookup-1951728.patch
 
