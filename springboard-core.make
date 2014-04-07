@@ -48,7 +48,7 @@ projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
 
 projects[ctools][subdir] = contrib
-projects[ctools[version] = 1.3
+projects[ctools[version] = 1.4
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -57,7 +57,7 @@ projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 1.1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.2
+projects[entity][version] = 1.4
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
