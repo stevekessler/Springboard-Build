@@ -62,6 +62,9 @@ projects[entity][version] = 1.2
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
 
+projects[fboauth][subdir] = contrib
+projects[fboauth][version] = 1.6
+
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.3
 
