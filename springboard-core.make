@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.2.5
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.2.5
+projects[springboard][download][branch] = 7.x-4.2.6
 
 ;
 ; Contrib modules
@@ -109,7 +109,7 @@ projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.20
 
 projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.0
