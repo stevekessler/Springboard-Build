@@ -6,6 +6,9 @@ core = 7.x
 projects[drupal][type] = core
 projects[drupal][version] = 7.27
 
+; Fixes drupal 7.27 broken ajax.js for IE 8 and older browsers.
+projects[drupal][patch][] = http://drupal.org/files/issues/use-of-reserved-word-2245331-1.patch
+
 ;
 ; The Springboard repos.
 ;
@@ -20,7 +23,7 @@ projects[sbsetup][download][branch] = 7.x-4.3-beta1
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.x
+projects[springboard_themes][download][branch] = 7.x-4.2.6
 
 ; Springboard Modules
 projects[springboard][type] = module
@@ -163,7 +166,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.2.6/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
