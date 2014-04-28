@@ -6,6 +6,9 @@ core = 7.x
 projects[drupal][type] = core
 projects[drupal][version] = 7.27
 
+; Fixes drupal 7.27 broken ajax.js for IE 8 and older browsers.
+projects[drupal][patch][] = http://drupal.org/files/issues/use-of-reserved-word-2245331-1.patch
+
 ;
 ; The Springboard repos.
 ;
