@@ -30,6 +30,12 @@ projects[redirect][version] = 1.0-rc1
 projects[region_tokens][subdir] = contrib
 projects[region_tokens][version] = 1.0-rc3
 
+projects[token_filter][subdir] = contrib
+projects[token_filter][version] = 1.x-dev
+
+projects[token_insert][subdir] = contrib
+projects[token_insert][version] = 2.x-dev
+
 projects[webform_tokens][subdir] = contrib
 projects[webform_tokens][version] = 1.5-rc1
 
