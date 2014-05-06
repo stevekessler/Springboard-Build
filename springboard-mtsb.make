@@ -9,6 +9,9 @@ projects[cdn][version] = 2.6
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
 
+projects[date][subdir] = contrib
+projects[date][version] = 2.6
+
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.8
 
