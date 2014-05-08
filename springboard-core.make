@@ -87,6 +87,9 @@ projects[libraries][version] = 2.1
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 
+projects[panels][subdir] = contrib
+projects[panels][version] = 3.4
+
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.3
 
