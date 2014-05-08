@@ -4,7 +4,10 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.25
+projects[drupal][version] = 7.27
+
+; Fixes drupal 7.27 broken ajax.js for IE 8 and older browsers.
+projects[drupal][patch][] = http://drupal.org/files/issues/use-of-reserved-word-2245331-1.patch
 
 ;
 ; The Springboard repos.
@@ -14,13 +17,13 @@ projects[drupal][version] = 7.25
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.x
+projects[sbsetup][download][branch] = 7.x-4.3
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.x
+projects[springboard_themes][download][branch] = 7.x-4.3
 
 ; Springboard Modules
 projects[springboard][type] = module
@@ -124,10 +127,13 @@ projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.20
 
 projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.0
+
+projects[services][subdir] = contrib
+projects[services][version] = 3.7
 
 ;
 ; Libraries
@@ -153,6 +159,9 @@ libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a989252
 ; Patches
 ;
 
+; template_preprocess_entity does not check for existing 'path' index
+projects[entity][patch][2003826] = http://drupal.org/files/2003826-16-check_path_index_uri.patch
+
 ; Add idLookup as an option for UPSERT key
 projects[salesforce][patch][1951728] = http://drupal.org/files/salesforce-externalId_and_idLookup-1951728.patch
 
@@ -172,7 +181,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.3/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
