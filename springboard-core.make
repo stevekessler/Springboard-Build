@@ -38,6 +38,9 @@ projects[springboard][download][branch] = 7.x-4.x-springboard_p2p
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta4
 
+projects[blockreference][subdir] = contrib
+projects[blockreference][version] = 1.16
+
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.8
 
@@ -74,6 +77,12 @@ projects[field_group][version] = 1.3
 projects[features][subdir] = contrib
 projects[features][version] = 2.0
 
+projects[formblock][subdir] = contrib
+projects[formblock][version] = 1.x-dev
+
+projects[image_url_formatter][subdir] = contrib
+projects[image_url_formatter][version] = 1.4
+
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
 projects[improved_multi_select][version] = 2.x-dev
@@ -84,8 +93,17 @@ projects[jquery_update][version] = 2.x-dev
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
 
+projects[link][subdir] = contrib
+projects[link][version] = 1.2
+
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
+
+projects[nodequeue][subdir] = contrib
+projects[nodequeue][version] = 2.x-dev
+
+projects[panelizer][subdir] = contrib
+projects[panelizer][version] = 3.x-dev
 
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.4
@@ -141,6 +159,12 @@ projects[services][version] = 3.7
 ;
 ; Libraries
 ;
+
+libraries[flexslider][directory_name] = flexslider
+libraries[flexslider][destination] = libraries
+libraries[flexslider][download][type] = git
+libraries[flexslider][download][url] = https://github.com/woothemes/FlexSlider.git
+libraries[flexslider][download][tag] = 2.2.2
 
 ; Litle SDK
 libraries[litle][directory_name] = litle
