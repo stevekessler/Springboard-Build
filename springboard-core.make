@@ -164,7 +164,7 @@ libraries[flexslider][directory_name] = flexslider
 libraries[flexslider][destination] = libraries
 libraries[flexslider][download][type] = git
 libraries[flexslider][download][url] = https://github.com/woothemes/FlexSlider.git
-libraries[flexslider][download][tag] = 2.2.2
+libraries[flexslider][download][tag] = version/2.2.2
 
 ; Litle SDK
 libraries[litle][directory_name] = litle
