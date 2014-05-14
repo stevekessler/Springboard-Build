@@ -21,6 +21,9 @@ projects[imce_wysiwyg][version] = 1.0
 projects[memcache][subdir] = contrib
 projects[memcache][version] = 1.0
 
+projects[metatag][subdir] = contrib
+projects[metatag][version] = 1.0-beta9
+
 projects[new_relic_rpm][subdir] = contrib
 projects[new_relic_rpm][version] = 1.0-alpha1
 
