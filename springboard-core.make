@@ -144,6 +144,9 @@ projects[views][version] = 3.7
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
+projects[views_conditional][subdir] = contrib
+projects[views_conditional][version] = 1.1
+
 projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
 
