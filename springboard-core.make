@@ -125,8 +125,8 @@ projects[webform_ab][version] = 2.0
 libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
-libraries[litle][download][url] = https://github.com/LitleCo/litle-sdk-for-php.git
-libraries[litle][download][tag] = 8.19.0
+libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
+libraries[litle][download][branch] =  jackson-river-8.25.0
 
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
