@@ -53,6 +53,9 @@ projects[commerce_cardonfile][version] = 2.0-beta1
 projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
 
+projects[conditional_fields][subdir] = contrib
+projects[conditional_fields][version] = 3.0-alpha1
+
 projects[ctools][subdir] = contrib
 projects[ctools[version] = 1.3
 
