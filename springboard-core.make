@@ -166,11 +166,20 @@ projects[services][version] = 3.7
 ; Libraries
 ;
 
+; Flexslider
 libraries[flexslider][directory_name] = flexslider
 libraries[flexslider][destination] = libraries
 libraries[flexslider][download][type] = git
 libraries[flexslider][download][url] = https://github.com/woothemes/FlexSlider.git
 libraries[flexslider][download][tag] = version/2.2.2
+
+; FitVids
+libraries[fitvids][directory_name] = fitvids
+libraries[fitvids][type] = library
+libraries[fitvids][destination] = libraries
+libraries[fitvids][download][type] = get
+libraries[fitvids][download][url] = https://raw.githubusercontent.com/davatron5000/FitVids.js/v1.1.0/jquery.fitvids.js
+
 
 ; Litle SDK
 libraries[litle][directory_name] = litle
