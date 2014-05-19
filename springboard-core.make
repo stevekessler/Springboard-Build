@@ -180,7 +180,6 @@ libraries[fitvids][destination] = libraries
 libraries[fitvids][download][type] = get
 libraries[fitvids][download][url] = https://raw.githubusercontent.com/davatron5000/FitVids.js/v1.1.0/jquery.fitvids.js
 
-
 ; Litle SDK
 libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
@@ -188,6 +187,7 @@ libraries[litle][download][type] = git
 libraries[litle][download][url] = https://github.com/LitleCo/litle-sdk-for-php.git
 libraries[litle][download][tag] = 8.19.0
 
+; Salesforce
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
 libraries[salesforce][download][type] = git
