@@ -111,6 +111,9 @@ projects[panelizer][version] = 3.x-dev
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.4
 
+projects[panels_extra_styles][subdir] = contrib
+projects[panels_extra_styles][version] = 1.1
+
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.3
 
