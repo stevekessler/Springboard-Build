@@ -1,0 +1,17 @@
+diff --git a/includes/salesforce.inc b/includes/salesforce.inc
+index 6cda48e..30edbed 100644
+--- a/includes/salesforce.inc
++++ b/includes/salesforce.inc
+@@ -153,6 +153,12 @@ class Salesforce {
+       'data' => $data,
+     );
+ 
++    // Log this httpRequest.
++    watchdog('salesforce', 'httpRequest: @url, $options: @options', array(
++      '@url' => $url,
++      '@options' => print_r($options, TRUE)
++      ), WATCHDOG_DEBUG);
++
+     return drupal_http_request($url, $options);
+   }
+ 

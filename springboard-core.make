@@ -162,6 +162,9 @@ projects[salesforce][patch][1934790] = http://drupal.org/files/salesforce-sandox
 ; Additional caching login in describObject method
 projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object-additional-caching.patch
 
+; Additional logging for Salesforce API calls
+projects[salesforce][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x-sf-api-logging/patches/salesforce-watchdog--all-http-requests.patch
+
 ; Make encrypt module use the encrypt key
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
