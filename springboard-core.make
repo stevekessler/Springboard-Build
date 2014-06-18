@@ -83,9 +83,6 @@ projects[features][version] = 2.0
 projects[formblock][subdir] = contrib
 projects[formblock][version] = 1.x-dev
 
-projects[image_url_formatter][subdir] = contrib
-projects[image_url_formatter][version] = 1.4
-
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
 projects[improved_multi_select][version] = 2.x-dev
@@ -101,9 +98,6 @@ projects[link][version] = 1.2
 
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
-
-projects[nodequeue][subdir] = contrib
-projects[nodequeue][version] = 2.x-dev
 
 projects[panelizer][subdir] = contrib
 projects[panelizer][version] = 3.x-dev
@@ -175,13 +169,6 @@ libraries[flexslider][destination] = libraries
 libraries[flexslider][download][type] = git
 libraries[flexslider][download][url] = https://github.com/woothemes/FlexSlider.git
 libraries[flexslider][download][tag] = version/2.2.2
-
-; FitVids
-libraries[fitvids][directory_name] = fitvids
-libraries[fitvids][type] = library
-libraries[fitvids][destination] = libraries
-libraries[fitvids][download][type] = get
-libraries[fitvids][download][url] = https://raw.githubusercontent.com/davatron5000/FitVids.js/v1.1.0/jquery.fitvids.js
 
 ; Litle SDK
 libraries[litle][directory_name] = litle
