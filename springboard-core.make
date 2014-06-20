@@ -99,6 +99,9 @@ projects[link][version] = 1.2
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 
+projects[pm_existing_pages][subdir] = contrib
+projects[pm_existing_pages][version] = 1.x-dev
+
 projects[panelizer][subdir] = contrib
 projects[panelizer][version] = 3.x-dev
 
