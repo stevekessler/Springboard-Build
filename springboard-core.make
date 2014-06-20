@@ -17,19 +17,19 @@ projects[drupal][patch][] = http://drupal.org/files/issues/use-of-reserved-word-
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.2.6
+projects[sbsetup][download][branch] = 7.x-4.3
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.2.6
+projects[springboard_themes][download][branch] = 7.x-4.3
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.2.6
+projects[springboard][download][branch] = 7.x-4.3.1-beta1
 
 ;
 ; Contrib modules
@@ -116,6 +116,9 @@ projects[webform][version] = 3.20
 
 projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.0
+
+projects[services][subdir] = contrib
+projects[services][version] = 3.7
 
 ;
 ; Libraries
