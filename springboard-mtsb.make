@@ -52,3 +52,10 @@ projects[wysiwyg][version] = 2.2
 libraries[ckeditor][download][type] = file
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip
 libraries[ckeditor][destination] = libraries
+
+;
+; Patches
+;
+
+; Create Views for Better Managing Webform A/B tests 
+projects[webform_ab][patch][2291297] = https://www.drupal.org/files/issues/webform_ab-views-2291297-1.patch
