@@ -39,6 +39,9 @@ projects[token_filter][version] = 1.x-dev
 projects[token_insert][subdir] = contrib
 projects[token_insert][version] = 2.x-dev
 
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta7
+
 projects[webform_tokens][subdir] = contrib
 projects[webform_tokens][version] = 1.5-rc1
 
@@ -49,3 +52,10 @@ projects[wysiwyg][version] = 2.2
 libraries[ckeditor][download][type] = file
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip
 libraries[ckeditor][destination] = libraries
+
+;
+; Patches
+;
+
+; Option for non-image link display / https://www.drupal.org/node/2261167
+projects[views_data_export][patch][2261167] = https://www.drupal.org/files/issues/views_data_export-text_link-2261167-5.patch
