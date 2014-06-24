@@ -17,19 +17,19 @@ projects[drupal][patch][] = http://drupal.org/files/issues/use-of-reserved-word-
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.3
+projects[sbsetup][download][branch] = 7.x-4.3.2
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.3
+projects[springboard_themes][download][branch] = 7.x-4.3.2
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.3
+projects[springboard][download][branch] = 7.x-4.3.2
 
 ;
 ; Contrib modules
@@ -128,8 +128,8 @@ projects[services][version] = 3.7
 libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
-libraries[litle][download][url] = https://github.com/LitleCo/litle-sdk-for-php.git
-libraries[litle][download][tag] = 8.19.0
+libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
+libraries[litle][download][branch] = jackson-river-8.25.0
 
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
@@ -169,7 +169,7 @@ projects[salesforce][patch][] = https://raw.github.com/JacksonRiver/Springboard-
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.3/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.3.2/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
