@@ -52,10 +52,3 @@ projects[wysiwyg][version] = 2.2
 libraries[ckeditor][download][type] = file
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip
 libraries[ckeditor][destination] = libraries
-
-;
-; Patches
-;
-
-; Option for non-image link display / https://www.drupal.org/node/2261167
-projects[views_data_export][patch][2261167] = https://www.drupal.org/files/issues/views_data_export-text_link-2261167-5.patch
