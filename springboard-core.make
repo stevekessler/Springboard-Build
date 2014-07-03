@@ -117,6 +117,9 @@ projects[webform][version] = 3.20
 projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.0
 
+projects[services][subdir] = contrib
+projects[services][version] = 3.7
+
 ;
 ; Libraries
 ;
@@ -125,8 +128,8 @@ projects[webform_ab][version] = 2.0
 libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
-libraries[litle][download][url] = https://github.com/LitleCo/litle-sdk-for-php.git
-libraries[litle][download][tag] = 8.19.0
+libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
+libraries[litle][download][branch] = jackson-river-8.25.0
 
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
@@ -163,7 +166,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.2.6/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.3.2/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
