@@ -17,7 +17,7 @@ projects[drupal][patch][] = http://drupal.org/files/issues/use-of-reserved-word-
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.3.2
+projects[sbsetup][download][branch] = 7.x-4.x-webform_goals_base_url
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
