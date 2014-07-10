@@ -23,7 +23,7 @@ projects[sbsetup][download][branch] = 7.x-4.3.2
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.x-admin_interface_phase2
+projects[springboard_themes][download][branch] = 7.x-4.4-beta1
 
 ; Springboard Modules
 projects[springboard][type] = module
@@ -107,6 +107,9 @@ projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
+
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta7
 
 projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
