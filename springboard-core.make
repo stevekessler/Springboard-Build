@@ -108,6 +108,9 @@ projects[panelizer][version] = 3.x-dev
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.4
 
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta7
+ 
 projects[panels_extra_styles][subdir] = contrib
 projects[panels_extra_styles][version] = 1.1
 
