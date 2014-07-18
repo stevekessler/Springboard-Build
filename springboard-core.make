@@ -23,7 +23,7 @@ projects[sbsetup][download][branch] = 7.x-4.x
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.4-beta1
+projects[springboard_themes][download][branch] = 7.x-4.4
 
 ; Springboard Modules
 projects[springboard][type] = module
@@ -110,7 +110,7 @@ projects[panels][version] = 3.4
 
 projects[views_data_export][subdir] = contrib
 projects[views_data_export][version] = 3.0-beta7
- 
+
 projects[panels_extra_styles][subdir] = contrib
 projects[panels_extra_styles][version] = 1.1
 
