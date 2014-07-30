@@ -223,3 +223,7 @@ projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Bui
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
+
+; @todo Remove this before making the release.
+projects[diff][subdir] = contrib
+projects[diff][version] = 3.2
