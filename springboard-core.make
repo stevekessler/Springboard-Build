@@ -23,7 +23,7 @@ projects[sbsetup][download][branch] = 7.x-4.4
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.4
+projects[springboard_themes][download][branch] = 7.x-4.x-form_cleanup_reference
 
 ; Springboard Modules
 projects[springboard][type] = module
