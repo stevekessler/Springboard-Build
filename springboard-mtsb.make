@@ -6,6 +6,9 @@ includes[springboard-core] = https://raw.githubusercontent.com/JacksonRiver/Spri
 projects[cdn][subdir] = contrib
 projects[cdn][version] = 2.6
 
+projects[context][subdir] = contrib
+projects[context][version] = 3.2
+
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
 

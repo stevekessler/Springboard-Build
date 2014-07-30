@@ -38,6 +38,9 @@ projects[springboard][download][branch] = 7.x-cs-288
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta4
 
+projects[blockreference][subdir] = contrib
+projects[blockreference][version] = 1.16
+
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.8
 
@@ -49,6 +52,9 @@ projects[commerce_cardonfile][version] = 2.0-beta1
 
 projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
+
+projects[conditional_fields][subdir] = contrib
+projects[conditional_fields][version] = 3.0-alpha1
 
 projects[ctools][subdir] = contrib
 projects[ctools[version] = 1.3
@@ -65,6 +71,18 @@ projects[entity][version] = 1.2
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
 
+projects[fboauth][subdir] = contrib
+projects[fboauth][version] = 1.6
+
+projects[field_group][subdir] = contrib
+projects[field_group][version] = 1.3
+
+projects[features][subdir] = contrib
+projects[features][version] = 2.0
+
+projects[formblock][subdir] = contrib
+projects[formblock][version] = 1.x-dev
+
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
 projects[improved_multi_select][version] = 2.x-dev
@@ -75,8 +93,26 @@ projects[jquery_update][version] = 2.x-dev
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
 
+projects[link][subdir] = contrib
+projects[link][version] = 1.2
+
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
+
+projects[pm_existing_pages][subdir] = contrib
+projects[pm_existing_pages][version] = 1.x-dev
+
+projects[panelizer][subdir] = contrib
+projects[panelizer][version] = 3.x-dev
+
+projects[panels][subdir] = contrib
+projects[panels][version] = 3.4
+
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta7
+
+projects[panels_extra_styles][subdir] = contrib
+projects[panels_extra_styles][version] = 1.1
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.3
@@ -93,6 +129,9 @@ projects[securepages][version] = 1.0-beta1
 projects[shorten][subdir] = contrib
 projects[shorten][version] = 1.2
 
+projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 2.0
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
@@ -102,14 +141,17 @@ projects[token_filter][download][type] = git
 projects[token_filter][download][url] = http://git.drupal.org/project/token_filter.git
 projects[token_filter][download][branch] = 7c136e4ce38c75a910d242205b71ec2b12f48639
 
+projects[video_embed_field][subdir] = contrib
+projects[video_embed_field][version] = 2.0-beta7
+
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 
-projects[views_data_export][subdir] = contrib
-projects[views_data_export][version] = 3.0-beta7
+projects[views_conditional][subdir] = contrib
+projects[views_conditional][version] = 1.1
 
 projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
@@ -127,6 +169,13 @@ projects[services][version] = 3.7
 ; Libraries
 ;
 
+; FitVids
+libraries[fitvids][directory_name] = fitvids
+libraries[fitvids][type] = library
+libraries[fitvids][destination] = libraries
+libraries[fitvids][download][type] = get
+libraries[fitvids][download][url] = https://raw.githubusercontent.com/davatron5000/FitVids.js/v1.1.0/jquery.fitvids.js
+
 ; Litle SDK
 libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
@@ -134,6 +183,7 @@ libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
 libraries[litle][download][branch] = jackson-river-8.25.0
 
+; Salesforce
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
 libraries[salesforce][download][type] = git
@@ -169,7 +219,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.3.2/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.4/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
