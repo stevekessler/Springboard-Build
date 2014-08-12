@@ -9,6 +9,10 @@ projects[drupal][version] = 7.27
 ; Fixes drupal 7.27 broken ajax.js for IE 8 and older browsers.
 projects[drupal][patch][] = http://drupal.org/files/issues/use-of-reserved-word-2245331-1.patch
 
+;Integrity constraint violation when saving a user account after creation
+;https://www.drupal.org/node/1433288#comment-8312299
+projects[drupal][patch][] = https://www.drupal.org/files/issues/drupal-fix-user-insert-roles-1433288-42.patch
+
 ;
 ; The Springboard repos.
 ;
