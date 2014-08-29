@@ -199,7 +199,7 @@ libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a989252
 ;
 
 ; Makes some of Rules UI compatible with jQuery 1.7
-project[rules][patch][1810656] = http://www.drupal.org/files/rules-jquery_update_compatibility-1810656-37.patch
+projects[rules][patch][1810656] = http://www.drupal.org/files/rules-jquery_update_compatibility-1810656-37.patch
 
 ; template_preprocess_entity does not check for existing 'path' index
 projects[entity][patch][2003826] = http://drupal.org/files/2003826-16-check_path_index_uri.patch
