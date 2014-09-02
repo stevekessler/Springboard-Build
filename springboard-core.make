@@ -24,13 +24,13 @@ projects[sbsetup][download][branch] = 7.x-4.4.1
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.4.1
+projects[springboard_themes][download][branch] = t355-ui-updates
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.4.1
+projects[springboard][download][branch] = t355-ui-updates
 
 ;
 ; Contrib modules
