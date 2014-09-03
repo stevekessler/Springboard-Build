@@ -30,7 +30,7 @@ projects[springboard_themes][download][branch] = 7.x-4.4.1
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.4.1
+projects[springboard][download][branch] = cs-288-7.x-4.4.1
 
 ;
 ; Contrib modules
