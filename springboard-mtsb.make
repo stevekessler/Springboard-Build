@@ -39,11 +39,11 @@ projects[redirect][version] = 1.0-rc1
 projects[region_tokens][subdir] = contrib
 projects[region_tokens][version] = 1.0-rc3
 
-projects[token_filter][subdir] = contrib
-projects[token_filter][version] = 1.x-dev
-
 projects[token_insert][subdir] = contrib
-projects[token_insert][version] = 2.x-dev
+projects[token_insert][type] = module
+projects[token_insert][download][type] = git
+projects[token_insert][download][url] = http://git.drupal.org/project/token_insert.git
+projects[token_insert][download][branch] = 4630189ef4115ca05211507ddb3193d5af814f8b
 
 projects[webform_tokens][subdir] = contrib
 projects[webform_tokens][version] = 1.5-rc1
