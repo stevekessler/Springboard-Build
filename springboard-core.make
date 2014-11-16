@@ -4,11 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.31
-
-;Integrity constraint violation when saving a user account after creation
-;https://www.drupal.org/node/1433288#comment-8312299
-projects[drupal][patch][] = https://www.drupal.org/files/issues/drupal-fix-user-insert-roles-1433288-42.patch
+projects[drupal][version] = 7.33
 
 ;
 ; The Springboard repos.
