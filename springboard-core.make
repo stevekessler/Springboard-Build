@@ -119,7 +119,7 @@ projects[panelizer][subdir] = contrib
 projects[panelizer][type] = module
 projects[panelizer][download][type] = git
 projects[panelizer][download][url] = http://git.drupal.org/project/panelizer.git
-projects[panelizer][download][branch] = dd5aacc27bd2e0ceda857ce2bd40d84b085ad3ba
+projects[panelizer][download][branch] = 8e619d3118f79eaea626f6a1a3742422ac13810c
 
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.4
