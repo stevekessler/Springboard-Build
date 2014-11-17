@@ -18,19 +18,19 @@ projects[drupal][patch][] = https://www.drupal.org/files/issues/drupal-fix-user-
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.5
+projects[sbsetup][download][branch] = 7.x-4.x
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.5
+projects[springboard_themes][download][branch] = 7.x-4.x
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.5
+projects[springboard][download][branch] = 7.x-4.x
 
 ;
 ; Contrib modules
@@ -58,7 +58,7 @@ projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools[version] = 1.3
+projects[ctools[version] = 1.4
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -180,6 +180,7 @@ projects[webform_ab][version] = 2.1
 
 projects[services][subdir] = contrib
 projects[services][version] = 3.7
+projects[services][patch][2200269] = https://www.drupal.org/files/issues/services-2200269.patch
 
 ;
 ; Libraries

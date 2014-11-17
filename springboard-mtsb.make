@@ -60,5 +60,5 @@ libraries[ckeditor][destination] = libraries
 ; Patches
 ;
 
-; Create Views for Better Managing Webform A/B tests 
+; Create Views for Better Managing Webform A/B tests
 projects[webform_ab][patch][2291297] = https://www.drupal.org/files/issues/webform_ab-views-2291297-1.patch
