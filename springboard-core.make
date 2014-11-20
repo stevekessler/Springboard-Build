@@ -14,19 +14,19 @@ projects[drupal][version] = 7.34
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.4.1
+projects[sbsetup][download][branch] = 7.x-4.x
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.4.1
+projects[springboard_themes][download][branch] = 7.x-4.x
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.4.1
+projects[springboard][download][branch] = 7.x-4.x
 
 ;
 ; Contrib modules
@@ -54,7 +54,7 @@ projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools[version] = 1.3
+projects[ctools][version] = 1.4
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -63,7 +63,7 @@ projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 1.1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.2
+projects[entity][version] = 1.5
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
@@ -106,7 +106,7 @@ projects[panels][subdir] = contrib
 projects[panels][version] = 3.4
 
 projects[views_data_export][subdir] = contrib
-projects[views_data_export][version] = 3.0-beta7
+projects[views_data_export][version] = 3.0-beta8
 
 projects[panels_extra_styles][subdir] = contrib
 projects[panels_extra_styles][version] = 1.1
@@ -157,10 +157,11 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.20
 
 projects[webform_ab][subdir] = contrib
-projects[webform_ab][version] = 2.0
+projects[webform_ab][version] = 2.1
 
 projects[services][subdir] = contrib
 projects[services][version] = 3.7
+projects[services][patch][2200269] = https://www.drupal.org/files/issues/services-2200269.patch
 
 ;
 ; Libraries
@@ -219,7 +220,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.4.1/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.5/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch

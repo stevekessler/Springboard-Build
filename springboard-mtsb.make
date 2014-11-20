@@ -39,9 +39,6 @@ projects[redirect][version] = 1.0-rc1
 projects[region_tokens][subdir] = contrib
 projects[region_tokens][version] = 1.0-rc3
 
-projects[token_filter][subdir] = contrib
-projects[token_filter][version] = 1.x-dev
-
 projects[token_insert][subdir] = contrib
 projects[token_insert][version] = 2.x-dev
 
@@ -60,5 +57,5 @@ libraries[ckeditor][destination] = libraries
 ; Patches
 ;
 
-; Create Views for Better Managing Webform A/B tests 
+; Create Views for Better Managing Webform A/B tests
 projects[webform_ab][patch][2291297] = https://www.drupal.org/files/issues/webform_ab-views-2291297-1.patch
