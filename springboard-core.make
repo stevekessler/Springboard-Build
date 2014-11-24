@@ -54,7 +54,7 @@ projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools[version] = 1.3
+projects[ctools[version] = 1.4
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
