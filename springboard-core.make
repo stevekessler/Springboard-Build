@@ -4,10 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.27
-
-; Fixes drupal 7.27 broken ajax.js for IE 8 and older browsers.
-projects[drupal][patch][] = http://drupal.org/files/issues/use-of-reserved-word-2245331-1.patch
+projects[drupal][version] = 7.34
 
 ;
 ; The Springboard repos.
@@ -17,19 +14,19 @@ projects[drupal][patch][] = http://drupal.org/files/issues/use-of-reserved-word-
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.3.2
+projects[sbsetup][download][branch] = 7.x-4.x
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.3.2
+projects[springboard_themes][download][branch] = 7.x-4.x
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.3.2
+projects[springboard][download][branch] = 7.x-4.x
 
 ;
 ; Contrib modules
@@ -37,6 +34,9 @@ projects[springboard][download][branch] = 7.x-4.3.2
 
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta4
+
+projects[blockreference][subdir] = contrib
+projects[blockreference][version] = 1.16
 
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.8
@@ -50,8 +50,11 @@ projects[commerce_cardonfile][version] = 2.0-beta1
 projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
 
+projects[conditional_fields][subdir] = contrib
+projects[conditional_fields][version] = 3.0-alpha1
+
 projects[ctools][subdir] = contrib
-projects[ctools[version] = 1.3
+projects[ctools][version] = 1.4
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -60,10 +63,22 @@ projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 1.1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.2
+projects[entity][version] = 1.5
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
+
+projects[fboauth][subdir] = contrib
+projects[fboauth][version] = 1.6
+
+projects[field_group][subdir] = contrib
+projects[field_group][version] = 1.3
+
+projects[features][subdir] = contrib
+projects[features][version] = 2.0
+
+projects[formblock][subdir] = contrib
+projects[formblock][version] = 1.x-dev
 
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
@@ -75,8 +90,26 @@ projects[jquery_update][version] = 2.x-dev
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
 
+projects[link][subdir] = contrib
+projects[link][version] = 1.2
+
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
+
+projects[pm_existing_pages][subdir] = contrib
+projects[pm_existing_pages][version] = 1.x-dev
+
+projects[panelizer][subdir] = contrib
+projects[panelizer][version] = 3.x-dev
+
+projects[panels][subdir] = contrib
+projects[panels][version] = 3.4
+
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta8
+
+projects[panels_extra_styles][subdir] = contrib
+projects[panels_extra_styles][version] = 1.1
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.3
@@ -93,6 +126,9 @@ projects[securepages][version] = 1.0-beta1
 projects[shorten][subdir] = contrib
 projects[shorten][version] = 1.2
 
+projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 2.0
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
@@ -102,11 +138,17 @@ projects[token_filter][download][type] = git
 projects[token_filter][download][url] = http://git.drupal.org/project/token_filter.git
 projects[token_filter][download][branch] = 7c136e4ce38c75a910d242205b71ec2b12f48639
 
+projects[video_embed_field][subdir] = contrib
+projects[video_embed_field][version] = 2.0-beta7
+
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
+
+projects[views_conditional][subdir] = contrib
+projects[views_conditional][version] = 1.1
 
 projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
@@ -115,14 +157,22 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.20
 
 projects[webform_ab][subdir] = contrib
-projects[webform_ab][version] = 2.0
+projects[webform_ab][version] = 2.1
 
 projects[services][subdir] = contrib
 projects[services][version] = 3.7
+projects[services][patch][2200269] = https://www.drupal.org/files/issues/services-2200269.patch
 
 ;
 ; Libraries
 ;
+
+; FitVids
+libraries[fitvids][directory_name] = fitvids
+libraries[fitvids][type] = library
+libraries[fitvids][destination] = libraries
+libraries[fitvids][download][type] = get
+libraries[fitvids][download][url] = https://raw.githubusercontent.com/davatron5000/FitVids.js/v1.1.0/jquery.fitvids.js
 
 ; Litle SDK
 libraries[litle][directory_name] = litle
@@ -131,6 +181,7 @@ libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
 libraries[litle][download][branch] = jackson-river-8.25.0
 
+; Salesforce
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
 libraries[salesforce][download][type] = git
@@ -143,6 +194,9 @@ libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a989252
 ;
 ; Patches
 ;
+
+; Makes some of Rules UI compatible with jQuery 1.7
+projects[rules][patch][1810656] = http://www.drupal.org/files/rules-jquery_update_compatibility-1810656-37.patch
 
 ; template_preprocess_entity does not check for existing 'path' index
 projects[entity][patch][2003826] = http://drupal.org/files/2003826-16-check_path_index_uri.patch
@@ -169,7 +223,11 @@ projects[salesforce][patch][] = https://raw.github.com/JacksonRiver/Springboard-
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.3.2/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.5/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
+
+; @todo Remove this before making the release.
+projects[diff][subdir] = contrib
+projects[diff][version] = 3.2
