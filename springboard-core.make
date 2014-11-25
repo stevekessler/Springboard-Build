@@ -58,7 +58,7 @@ projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools[version] = 1.3
+projects[ctools][version] = 1.3
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.6
@@ -165,6 +165,7 @@ projects[webform_ab][version] = 2.0
 
 projects[services][subdir] = contrib
 projects[services][version] = 3.7
+projects[services][patch][2200269] = https://www.drupal.org/files/issues/services-2200269.patch
 
 ;
 ; Libraries
