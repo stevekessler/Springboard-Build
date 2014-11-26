@@ -26,7 +26,8 @@ projects[springboard_themes][download][branch] = 7.x-4.x
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x
+; Version change to test a new Litle SDK.
+projects[springboard][download][branch] = 7.x-4.x-litle-8.27.1
 
 ;
 ; Contrib modules
@@ -179,7 +180,7 @@ libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
-libraries[litle][download][branch] = jackson-river-8.25.0
+libraries[litle][download][branch] = jacksonriver-8.27
 
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
