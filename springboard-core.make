@@ -4,11 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.32
-
-;Integrity constraint violation when saving a user account after creation
-;https://www.drupal.org/node/1433288#comment-8312299
-projects[drupal][patch][] = https://www.drupal.org/files/issues/drupal-fix-user-insert-roles-1433288-42.patch
+projects[drupal][version] = 7.34
 
 ;
 ; The Springboard repos.
@@ -182,7 +178,7 @@ libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
-libraries[litle][download][branch] = jackson-river-8.25.0
+libraries[litle][download][branch] = jacksonriver-8.25.0-poodle
 
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
