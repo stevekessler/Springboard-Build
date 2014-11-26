@@ -179,7 +179,7 @@ libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
-libraries[litle][download][branch] = jackson-river-8.25.0
+libraries[litle][download][branch] = jacksonriver-8.25.0-poodle
 
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
