@@ -163,6 +163,12 @@ projects[services][subdir] = contrib
 projects[services][version] = 3.7
 projects[services][patch][2200269] = https://www.drupal.org/files/issues/services-2200269.patch
 
+projects[honeypot][subdir] = contrib
+projects[honeypot][version] = 1.17
+
+projects[password_policy][subdir] = contrib
+projects[password_policy][version] = 1.9
+
 ;
 ; Libraries
 ;
