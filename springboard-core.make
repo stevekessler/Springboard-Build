@@ -28,6 +28,15 @@ projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
 projects[springboard][download][branch] = 7.x-4.x
 
+; Springboard-sdk-php
+libraries[springboard_sdk_php][directory_name] = springboard_advocacy
+libraries[springboard_sdk_php][type] = library
+libraries[springboard_sdk_php][destination] = libraries
+libraries[springboard_sdk_php][download][type] = git
+libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/springboard-sdk-php.git
+
+
+
 ;
 ; Contrib modules
 ;
