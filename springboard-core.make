@@ -78,14 +78,23 @@ projects[features][subdir] = contrib
 projects[features][version] = 2.0
 
 projects[formblock][subdir] = contrib
-projects[formblock][version] = 1.x-dev
+projects[formblock][type] = module
+projects[formblock][download][type] = git
+projects[formblock][download][url] = http://git.drupal.org/project/formblock.git
+projects[formblock][download][branch] = 2d94c8323b2095e4c3e6470d31aa49063688dff6
 
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
-projects[improved_multi_select][version] = 2.x-dev
+projects[improved_multi_select][type] = module
+projects[improved_multi_select][download][type] = git
+projects[improved_multi_select][download][url] = http://git.drupal.org/project/improved_multi_select.git
+projects[improved_multi_select][download][branch] = b82a7dd5c87d552a2b17fd9fc9e6278d3b5b9e98
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = 2.x-dev
+projects[jquery_update][type] = module
+projects[jquery_update][download][type] = git
+projects[jquery_update][download][url] = http://git.drupal.org/project/jquery_update.git
+projects[jquery_update][download][branch] = 1ad9a087632a4a849f553315df2bcdb8d38bee2a
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
@@ -97,10 +106,16 @@ projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 
 projects[pm_existing_pages][subdir] = contrib
-projects[pm_existing_pages][version] = 1.x-dev
+projects[pm_existing_pages][type] = module
+projects[pm_existing_pages][download][type] = git
+projects[pm_existing_pages][download][url] = http://git.drupal.org/project/pm_existing_pages.git
+projects[pm_existing_pages][download][branch] = e0451cc00e9661aaa70feeef35cf79aaf39710f7
 
 projects[panelizer][subdir] = contrib
-projects[panelizer][version] = 3.x-dev
+projects[panelizer][type] = module
+projects[panelizer][download][type] = git
+projects[panelizer][download][url] = http://git.drupal.org/project/panelizer.git
+projects[panelizer][download][branch] = 8e619d3118f79eaea626f6a1a3742422ac13810c
 
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.4
