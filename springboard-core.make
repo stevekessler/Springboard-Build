@@ -157,7 +157,7 @@ projects[video_embed_field][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta7
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
@@ -239,6 +239,10 @@ projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Bui
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
+
+; Fix setting Views cache time.
+; See https://www.drupal.org/node/2037749
+projects[views][patch][2037749] = http://www.drupal.org/files/issues/views-cache_time-2037749-14.patch
 
 ; @todo Remove this before making the release.
 projects[diff][subdir] = contrib
