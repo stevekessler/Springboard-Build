@@ -14,19 +14,19 @@ projects[drupal][version] = 7.34
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.x
+projects[sbsetup][download][branch] = 7.x-4.6
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.x
+projects[springboard_themes][download][branch] = 7.x-4.6
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x
+projects[springboard][download][branch] = 7.x-4.6
 
 ;
 ; Contrib modules
@@ -178,6 +178,12 @@ projects[services][subdir] = contrib
 projects[services][version] = 3.7
 projects[services][patch][2200269] = https://www.drupal.org/files/issues/services-2200269.patch
 
+projects[honeypot][subdir] = contrib
+projects[honeypot][version] = 1.17
+
+projects[password_policy][subdir] = contrib
+projects[password_policy][version] = 1.9
+
 ;
 ; Libraries
 ;
@@ -194,7 +200,7 @@ libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
-libraries[litle][download][branch] = jackson-river-8.25.0
+libraries[litle][download][branch] = 8.27.1-jr
 
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
@@ -235,7 +241,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.5/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.6/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
@@ -243,3 +249,8 @@ projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_r
 ; @todo Remove this before making the release.
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
+
+; EntityMalformedException during cron while core search is indexing
+; a webform_ab node.
+; See https://www.drupal.org/node/2389357
+projects[webform_ab][patch][2389357] = http://www.drupal.org/files/issues/entity_malformed_exception_cron.patch
