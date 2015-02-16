@@ -172,7 +172,7 @@ projects[webform][subdir] = contrib
 projects[webform][version] = 3.20
 
 projects[webform_ab][subdir] = contrib
-projects[webform_ab][version] = 2.1
+projects[webform_ab][version] = 2.3
 
 projects[services][subdir] = contrib
 projects[services][version] = 3.7
@@ -249,8 +249,3 @@ projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_r
 ; @todo Remove this before making the release.
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
-
-; EntityMalformedException during cron while core search is indexing
-; a webform_ab node.
-; See https://www.drupal.org/node/2389357
-projects[webform_ab][patch][2389357] = http://www.drupal.org/files/issues/entity_malformed_exception_cron.patch
