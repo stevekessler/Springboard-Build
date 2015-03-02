@@ -69,6 +69,9 @@ projects[date][version] = 2.6
 projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 1.1
 
+projects[draggableviews][subdir] = contrib
+projects[draggableviews][version] = 2.0
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.5
 
