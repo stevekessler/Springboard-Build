@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.34
+projects[drupal][version] = 7.35
 
 ;
 ; The Springboard repos.
@@ -39,7 +39,7 @@ projects[blockreference][subdir] = contrib
 projects[blockreference][version] = 1.16
 
 projects[commerce][subdir] = contrib
-projects[commerce][version] = 1.8
+projects[commerce][version] = 1.11
 
 projects[commerce_authnet][subdir] = contrib
 projects[commerce_authnet][version] = 1.1
@@ -54,16 +54,16 @@ projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.7
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.6
+projects[date][version] = 2.8
 
 projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 1.1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
@@ -169,7 +169,7 @@ projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.20
+projects[webform][version] = 3.23
 
 projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.1
