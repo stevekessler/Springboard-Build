@@ -175,8 +175,7 @@ projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.1
 
 projects[services][subdir] = contrib
-projects[services][version] = 3.7
-projects[services][patch][2200269] = https://www.drupal.org/files/issues/services-2200269.patch
+projects[services][version] = 3.12
 
 projects[honeypot][subdir] = contrib
 projects[honeypot][version] = 1.17
