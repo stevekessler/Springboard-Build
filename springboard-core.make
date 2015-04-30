@@ -33,7 +33,7 @@ projects[springboard][download][branch] = 7.x-4.x
 ;
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-beta4
+projects[addressfield][version] = 1.1
 
 projects[blockreference][subdir] = contrib
 projects[blockreference][version] = 1.16
