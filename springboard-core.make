@@ -28,6 +28,13 @@ projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
 projects[springboard][download][branch] = 7.x-4.x
 
+; Springboard-sdk-php
+libraries[springboard_sdk_php][directory_name] = springboard_advocacy
+libraries[springboard_sdk_php][type] = library
+libraries[springboard_sdk_php][destination] = libraries
+libraries[springboard_sdk_php][download][type] = git
+libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/springboard-sdk-php.git
+
 ;
 ; Contrib modules
 ;
@@ -67,6 +74,12 @@ projects[entity][version] = 1.6
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
+
+projects[entityreference_prepopulate][subdir] = contrib
+projects[entityreference_prepopulate][version] = 1.5
+
+projects[draggableviews][subdir] = contrib
+projects[draggableviews][version] = 2.0
 
 projects[fboauth][subdir] = contrib
 projects[fboauth][version] = 1.6
