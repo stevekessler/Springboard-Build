@@ -20,13 +20,13 @@ projects[sbsetup][download][branch] = 7.x-4.5
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = cs-288-7.x-4.5
+projects[springboard_themes][download][branch] = cs-288-7.x-4.5-tag
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = cs-288-7.x-4.5
+projects[springboard][download][branch] = cs-288-7.x-4.5-tag
 
 ;
 ; Contrib modules
