@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.34
+projects[drupal][version] = 7.37
 
 ;
 ; The Springboard repos.
@@ -28,18 +28,25 @@ projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
 projects[springboard][download][branch] = 7.x-4.x-springboard-tag-manager
 
+; Springboard-sdk-php
+libraries[springboard_sdk_php][directory_name] = springboard_advocacy
+libraries[springboard_sdk_php][type] = library
+libraries[springboard_sdk_php][destination] = libraries
+libraries[springboard_sdk_php][download][type] = git
+libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/springboard-sdk-php.git
+
 ;
 ; Contrib modules
 ;
 
 projects[addressfield][subdir] = contrib
-projects[addressfield][version] = 1.0-beta4
+projects[addressfield][version] = 1.1
 
 projects[blockreference][subdir] = contrib
 projects[blockreference][version] = 1.16
 
 projects[commerce][subdir] = contrib
-projects[commerce][version] = 1.8
+projects[commerce][version] = 1.11
 
 projects[commerce_authnet][subdir] = contrib
 projects[commerce_authnet][version] = 1.1
@@ -54,19 +61,25 @@ projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.7
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.6
+projects[date][version] = 2.8
 
 projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 1.1
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
+
+projects[entityreference_prepopulate][subdir] = contrib
+projects[entityreference_prepopulate][version] = 1.5
+
+projects[draggableviews][subdir] = contrib
+projects[draggableviews][version] = 2.0
 
 projects[fboauth][subdir] = contrib
 projects[fboauth][version] = 1.6
@@ -157,7 +170,7 @@ projects[video_embed_field][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta7
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.10
+projects[views][version] = 3.11
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
@@ -169,14 +182,13 @@ projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.20
+projects[webform][version] = 3.23
 
 projects[webform_ab][subdir] = contrib
-projects[webform_ab][version] = 2.1
+projects[webform_ab][version] = 2.3
 
 projects[services][subdir] = contrib
-projects[services][version] = 3.7
-projects[services][patch][2200269] = https://www.drupal.org/files/issues/services-2200269.patch
+projects[services][version] = 3.12
 
 projects[honeypot][subdir] = contrib
 projects[honeypot][version] = 1.17
@@ -219,9 +231,6 @@ libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a989252
 ; Makes some of Rules UI compatible with jQuery 1.7
 projects[rules][patch][1810656] = http://www.drupal.org/files/rules-jquery_update_compatibility-1810656-37.patch
 
-; template_preprocess_entity does not check for existing 'path' index
-projects[entity][patch][2003826] = http://drupal.org/files/2003826-16-check_path_index_uri.patch
-
 ; Add idLookup as an option for UPSERT key
 projects[salesforce][patch][1951728] = http://drupal.org/files/salesforce-externalId_and_idLookup-1951728.patch
 
@@ -241,7 +250,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x-springboard-tag-manager/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.6.3/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
@@ -249,8 +258,3 @@ projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_r
 ; @todo Remove this before making the release.
 projects[diff][subdir] = contrib
 projects[diff][version] = 3.2
-
-; EntityMalformedException during cron while core search is indexing
-; a webform_ab node.
-; See https://www.drupal.org/node/2389357
-projects[webform_ab][patch][2389357] = http://www.drupal.org/files/issues/entity_malformed_exception_cron.patch
