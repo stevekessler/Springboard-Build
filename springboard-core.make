@@ -194,7 +194,7 @@ projects[honeypot][subdir] = contrib
 projects[honeypot][version] = 1.17
 
 projects[password_policy][subdir] = contrib
-projects[password_policy][version] = 1.9
+projects[password_policy][version] = 1.11
 
 ;
 ; Libraries
