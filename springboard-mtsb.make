@@ -69,3 +69,9 @@ projects[token][patch][919760] = https://drupal.org/files/token-current_page_obj
 
 projects[og][subdir] = contrib
 projects[og][version] = 2.7
+
+projects[workbench][subdir] = contrib
+projects[workbench][version] = 1.2
+
+projects[workbench_access][subdir] = contrib
+projects[workbench_access][version] = 1.2
