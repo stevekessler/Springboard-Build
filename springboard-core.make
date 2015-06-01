@@ -7,6 +7,18 @@ projects[drupal][type] = core
 projects[drupal][version] = 7.37
 
 ;
+; Modules for 7732 Demo
+;
+projects[workbench][subdir] = contrib
+projects[workbench][version] = 1.2
+
+projects[workbench_access][subdir] = contrib
+projects[workbench_access][type] = module
+projects[workbench_access][download][type] = git
+projects[workbench_access][download][url] = http://git.drupal.org/project/workbench_access.git
+projects[workbench_access][download][branch] = dc60f628aa8ba6d5f8dd09c0ebe40c047a0518ce
+
+;
 ; The Springboard repos.
 ;
 
