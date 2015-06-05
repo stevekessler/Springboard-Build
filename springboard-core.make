@@ -57,6 +57,9 @@ projects[commerce_cardonfile][version] = 2.0-beta1
 projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
 
+projects[context][subdir] = contrib
+projects[context][version] = 3.2
+
 projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
 
@@ -96,6 +99,15 @@ projects[formblock][download][type] = git
 projects[formblock][download][url] = http://git.drupal.org/project/formblock.git
 projects[formblock][download][branch] = 2d94c8323b2095e4c3e6470d31aa49063688dff6
 
+projects[google_analytics][subdir] = contrib
+projects[google_analytics][version] = 1.3
+
+projects[imce][subdir] = contrib
+projects[imce][version] = 1.8
+
+projects[imce_wysiwyg][subdir] = contrib
+projects[imce_wysiwyg][version] = 1.0
+
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
 projects[improved_multi_select][type] = module
@@ -115,8 +127,14 @@ projects[libraries][version] = 2.1
 projects[link][subdir] = contrib
 projects[link][version] = 1.2
 
+projects[metatag][subdir] = contrib
+projects[metatag][version] = 1.0-beta9
+
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
+
+projects[pathauto][subdir] = contrib
+projects[pathauto][version] = 1.2
 
 projects[pm_existing_pages][subdir] = contrib
 projects[pm_existing_pages][type] = module
@@ -142,6 +160,12 @@ projects[panels_extra_styles][version] = 1.1
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.3
 
+projects[redirect][subdir] = contrib
+projects[redirect][version] = 1.0-rc1
+
+projects[region_tokens][subdir] = contrib
+projects[region_tokens][version] = 1.0-rc3
+
 projects[salesforce][subdir] = contrib
 projects[salesforce][type] = module
 projects[salesforce][download][type] = git
@@ -166,6 +190,12 @@ projects[token_filter][download][type] = git
 projects[token_filter][download][url] = http://git.drupal.org/project/token_filter.git
 projects[token_filter][download][branch] = 7c136e4ce38c75a910d242205b71ec2b12f48639
 
+projects[token_insert][subdir] = contrib
+projects[token_insert][type] = module
+projects[token_insert][download][type] = git
+projects[token_insert][download][url] = http://git.drupal.org/project/token_insert.git
+projects[token_insert][download][branch] = 4630189ef4115ca05211507ddb3193d5af814f8b
+
 projects[video_embed_field][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta7
 
@@ -186,6 +216,12 @@ projects[webform][version] = 3.23
 
 projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.3
+
+projects[webform_tokens][subdir] = contrib
+projects[webform_tokens][version] = 1.5-rc1
+
+projects[wysiwyg][subdir] = contrib
+projects[wysiwyg][version] = 2.2
 
 projects[services][subdir] = contrib
 projects[services][version] = 3.12
@@ -224,6 +260,11 @@ libraries[salesforce][download][url] = git://github.com/developerforce/Force.com
 ; Newer version, contains soap bug
 libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a98925289
 
+; WYSIWYG ckeditor library
+libraries[ckeditor][download][type] = file
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip
+libraries[ckeditor][destination] = libraries
+
 ;
 ; Patches
 ;
@@ -255,6 +296,8 @@ projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Bui
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
 
-; @todo Remove this before making the release.
-projects[diff][subdir] = contrib
-projects[diff][version] = 3.2
+; Create Views for Better Managing Webform A/B tests
+projects[webform_ab][patch][2291297] = https://www.drupal.org/files/issues/webform_ab-views-2291297-1.patch
+
+; Add a [current-page:object:?] dynamic token (see: https://www.drupal.org/node/919760)
+projects[token][patch][919760] = https://drupal.org/files/token-current_page_object_token-919760-9.patch
