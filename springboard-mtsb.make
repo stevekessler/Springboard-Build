@@ -39,6 +39,12 @@ projects[redirect][version] = 1.0-rc1
 projects[region_tokens][subdir] = contrib
 projects[region_tokens][version] = 1.0-rc3
 
+projects[tfa][subdir] = contrib
+projects[tfa][version] = 2.0-beta2
+
+projects[tfa_basic][subdir] = contrib
+projects[tfa_basic][version] = 1.0-beta2
+
 projects[token_insert][subdir] = contrib
 projects[token_insert][type] = module
 projects[token_insert][download][type] = git
