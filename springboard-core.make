@@ -251,3 +251,6 @@ projects[diff][version] = 3.2
 ; a webform_ab node.
 ; See https://www.drupal.org/node/2389357
 projects[webform_ab][patch][2389357] = http://www.drupal.org/files/issues/entity_malformed_exception_cron.patch
+
+; Assembla #491: Patching webform_ab to fix syntax issue throwing errors.
+projects[webform_ab][patch][] = https://www.drupal.org/files/issues/webform_ab-SQL-syntax-error-2510440.patch
