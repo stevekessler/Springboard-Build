@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.37
+projects[drupal][version] = 7.38
 
 ;
 ; The Springboard repos.
@@ -301,3 +301,6 @@ projects[webform_ab][patch][2291297] = https://www.drupal.org/files/issues/webfo
 
 ; Add a [current-page:object:?] dynamic token (see: https://www.drupal.org/node/919760)
 projects[token][patch][919760] = https://drupal.org/files/token-current_page_object_token-919760-9.patch
+
+; Fix syntax error in Webform A/B jQuery
+projects[webform_ab][patch][2510440] = https://www.drupal.org/files/issues/webform_ab-SQL-syntax-error-2510440.patch
