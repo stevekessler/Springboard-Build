@@ -304,3 +304,6 @@ projects[token][patch][919760] = https://drupal.org/files/token-current_page_obj
 
 ; Fix syntax error in Webform A/B jQuery
 projects[webform_ab][patch][2510440] = https://www.drupal.org/files/issues/webform_ab-SQL-syntax-error-2510440.patch
+
+; Change Canadian Dollar symbol to $
+projects[commerce][patch][2533870] = https://www.drupal.org/files/issues/commerce-canadian_dollar_symbol-2533870-1.patch
