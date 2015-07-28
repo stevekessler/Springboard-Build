@@ -54,6 +54,9 @@ projects[commerce_authnet][version] = 1.1
 projects[commerce_cardonfile][subdir] = contrib
 projects[commerce_cardonfile][version] = 2.0-beta1
 
+projects[commerce_currency_settings][subdir] = contrib
+projects[commerce_currency_settings][version] = 1.2
+
 projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
 
@@ -304,6 +307,3 @@ projects[token][patch][919760] = https://drupal.org/files/token-current_page_obj
 
 ; Fix syntax error in Webform A/B jQuery
 projects[webform_ab][patch][2510440] = https://www.drupal.org/files/issues/webform_ab-SQL-syntax-error-2510440.patch
-
-; Change Canadian Dollar symbol to $
-projects[commerce][patch][2533870] = https://www.drupal.org/files/issues/commerce-canadian_dollar_symbol-2533870-1.patch
