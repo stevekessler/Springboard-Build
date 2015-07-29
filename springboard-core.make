@@ -14,7 +14,7 @@ projects[drupal][version] = 7.38
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.7.2
+projects[sbsetup][download][branch] = cs-3784765429-7.x-4.7.2-luminate
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
