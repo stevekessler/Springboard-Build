@@ -181,6 +181,12 @@ projects[shorten][version] = 1.2
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
+projects[tfa][subdir] = contrib
+projects[tfa][version] = 2.0-beta2
+
+projects[tfa_basic][subdir] = contrib
+projects[tfa_basic][version] = 1.0-beta2
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
