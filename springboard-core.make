@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.38
+projects[drupal][version] = 7.39
 
 ;
 ; The Springboard repos.
@@ -53,6 +53,9 @@ projects[commerce_authnet][version] = 1.1
 
 projects[commerce_cardonfile][subdir] = contrib
 projects[commerce_cardonfile][version] = 2.0-beta1
+
+projects[commerce_currency_settings][subdir] = contrib
+projects[commerce_currency_settings][version] = 1.2
 
 projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
@@ -265,6 +268,14 @@ libraries[salesforce][download][url] = git://github.com/developerforce/Force.com
 ;libraries[salesforce][download][branch] = 0b1f2d78ce66249f4a9b8d6cb4dfeb07a182e7d7
 ; Newer version, contains soap bug
 libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a98925289
+
+; Twilio
+libraries[twilio][download][type] = "git"
+libraries[twilio][download][url] = "https://github.com/twilio/twilio-php.git"
+; Last commit at version 4.3.0.
+libraries[twilio][download][revision] = "9b83e2f1c480e3fb4e05a833b325c5afa43520fb"
+libraries[twilio][destination] = "modules/contrib/tfa_basic/includes"
+libraries[twilio][directory_name] = "twilio-php"
 
 ; WYSIWYG ckeditor library
 libraries[ckeditor][download][type] = file
