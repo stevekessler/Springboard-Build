@@ -269,6 +269,14 @@ libraries[salesforce][download][url] = git://github.com/developerforce/Force.com
 ; Newer version, contains soap bug
 libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a98925289
 
+; Twilio
+libraries[twilio][download][type] = "git"
+libraries[twilio][download][url] = "https://github.com/twilio/twilio-php.git"
+; Last commit at version 4.3.0.
+libraries[twilio][download][revision] = "9b83e2f1c480e3fb4e05a833b325c5afa43520fb"
+libraries[twilio][destination] = "modules/contrib/tfa_basic/includes"
+libraries[twilio][directory_name] = "twilio-php"
+
 ; WYSIWYG ckeditor library
 libraries[ckeditor][download][type] = file
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip
