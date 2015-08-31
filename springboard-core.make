@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.38
+projects[drupal][version] = 7.39
 
 ;
 ; The Springboard repos.
@@ -14,19 +14,19 @@ projects[drupal][version] = 7.38
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.x
+projects[sbsetup][download][branch] = 7.x-4.8
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.x
+projects[springboard_themes][download][branch] = 7.x-4.8
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x
+projects[springboard][download][branch] = 7.x-4.8
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -184,6 +184,12 @@ projects[shorten][version] = 1.2
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
+projects[tfa][subdir] = contrib
+projects[tfa][version] = 2.0-beta2
+
+projects[tfa_basic][subdir] = contrib
+projects[tfa_basic][version] = 1.0-beta2
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
@@ -263,6 +269,14 @@ libraries[salesforce][download][url] = git://github.com/developerforce/Force.com
 ; Newer version, contains soap bug
 libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a98925289
 
+; Twilio
+libraries[twilio][download][type] = "git"
+libraries[twilio][download][url] = "https://github.com/twilio/twilio-php.git"
+; Last commit at version 4.3.0.
+libraries[twilio][download][revision] = "9b83e2f1c480e3fb4e05a833b325c5afa43520fb"
+libraries[twilio][destination] = "modules/contrib/tfa_basic/includes"
+libraries[twilio][directory_name] = "twilio-php"
+
 ; WYSIWYG ckeditor library
 libraries[ckeditor][download][type] = file
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip
@@ -294,7 +308,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.7.1/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.8/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
