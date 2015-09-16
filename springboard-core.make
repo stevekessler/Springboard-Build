@@ -212,7 +212,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.11
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.3
 
 projects[views_conditional][subdir] = contrib
 projects[views_conditional][version] = 1.1
