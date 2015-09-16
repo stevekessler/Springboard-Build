@@ -223,9 +223,6 @@ projects[views_watchdog][version] = 3.3
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.23
 
-projects[webform_ab][subdir] = contrib
-projects[webform_ab][version] = 2.3
-
 projects[webform_tokens][subdir] = contrib
 projects[webform_tokens][version] = 1.5-rc1
 
@@ -313,11 +310,5 @@ projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Bui
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
 
-; Create Views for Better Managing Webform A/B tests
-projects[webform_ab][patch][2291297] = https://www.drupal.org/files/issues/webform_ab-views-2291297-1.patch
-
 ; Add a [current-page:object:?] dynamic token (see: https://www.drupal.org/node/919760)
 projects[token][patch][919760] = https://drupal.org/files/token-current_page_object_token-919760-9.patch
-
-; Fix syntax error in Webform A/B jQuery
-projects[webform_ab][patch][2510440] = https://www.drupal.org/files/issues/webform_ab-SQL-syntax-error-2510440.patch
