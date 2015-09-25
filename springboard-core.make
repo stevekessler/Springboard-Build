@@ -312,3 +312,6 @@ projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_r
 
 ; Add a [current-page:object:?] dynamic token (see: https://www.drupal.org/node/919760)
 projects[token][patch][919760] = https://drupal.org/files/token-current_page_object_token-919760-9.patch
+
+; Fix AJAX form elements when a form is rebuilt with errors in a submit handler.
+projects[drupal][patch][2573673] = https://www.drupal.org/files/issues/drupal-cache-form-on-submit-error-2573673-1.patch
