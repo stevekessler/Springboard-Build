@@ -61,13 +61,13 @@ projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.2
+projects[context][version] = 3.6
 
 projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.8
@@ -212,7 +212,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.11
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.3
 
 projects[views_conditional][subdir] = contrib
 projects[views_conditional][version] = 1.1
@@ -305,7 +305,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.8/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.8.1/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
