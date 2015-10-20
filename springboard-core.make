@@ -137,7 +137,7 @@ projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.2
+projects[pathauto][version] = 1.3
 
 projects[pm_existing_pages][subdir] = contrib
 projects[pm_existing_pages][type] = module
