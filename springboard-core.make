@@ -14,19 +14,19 @@ projects[drupal][version] = 7.39
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.8.2-beta
+projects[sbsetup][download][branch] = 7.x-4.8.2-rc1
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.8.2-beta
+projects[springboard_themes][download][branch] = 7.x-4.8.2-rc1
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.8.2-beta_luminate
+projects[springboard][download][branch] = 7.x-4.8.2-rc1_luminate
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -137,7 +137,7 @@ projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.2
+projects[pathauto][version] = 1.3
 
 projects[pm_existing_pages][subdir] = contrib
 projects[pm_existing_pages][type] = module
