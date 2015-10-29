@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.8.2-rc1
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.8.2-rc1
+projects[springboard][download][branch] = 7.x-4.x_social_advocacy
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -204,6 +204,11 @@ projects[token_insert][type] = module
 projects[token_insert][download][type] = git
 projects[token_insert][download][url] = http://git.drupal.org/project/token_insert.git
 projects[token_insert][download][branch] = 4630189ef4115ca05211507ddb3193d5af814f8b
+
+projects[twitter][subdir] = contrib
+projects[twiitter][version] = 6.2
+projects[oauth][subdir] = contrib
+projects[oauth][version] = 3.2
 
 projects[video_embed_field][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta7
