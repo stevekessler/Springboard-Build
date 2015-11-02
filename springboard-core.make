@@ -206,7 +206,7 @@ projects[token_insert][download][url] = http://git.drupal.org/project/token_inse
 projects[token_insert][download][branch] = 4630189ef4115ca05211507ddb3193d5af814f8b
 
 projects[twitter][subdir] = contrib
-projects[twiitter][version] = 6.2
+projects[twitter][version] = 6.2
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
 
