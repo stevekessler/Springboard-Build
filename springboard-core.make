@@ -256,6 +256,13 @@ libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
 libraries[litle][download][branch] = 8.27.1-jr
 
+; Mobile Detect
+libraries[mobiledetect][directory_name] = mobiledetect
+libraries[mobiledetect][destination] = libraries
+libraries[mobiledetect][download][type] = git
+libraries[mobiledetect][download][url] = git://github.com/serbanghita/Mobile-Detect
+libraries[mobiledetect][download][branch] = 7a94b349c761503598c325d3e49bbcdd55c5c55e
+
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
