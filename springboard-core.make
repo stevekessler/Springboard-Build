@@ -238,6 +238,9 @@ projects[honeypot][version] = 1.17
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.11
 
+projects[new_relic_rpm][subdir] = contrib
+242 projects[new_relic_rpm][version] = 1.0-alpha2
+
 ;
 ; Libraries
 ;
