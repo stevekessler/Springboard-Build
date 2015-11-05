@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.8.2
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.8.2.1
+projects[springboard][download][branch] = 7.x-4.8.2.1-rc1
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -237,6 +237,9 @@ projects[honeypot][version] = 1.17
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.11
+
+projects[new_relic_rpm][subdir] = contrib
+projects[new_relic_rpm][version] = 1.0-alpha2
 
 ;
 ; Libraries
