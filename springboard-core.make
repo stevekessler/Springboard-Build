@@ -178,6 +178,9 @@ projects[salesforce][download][branch] = e2b4ce0ffcd5c8e5f862f695a7bd2d4e915f1dc
 projects[securepages][subdir] = contrib
 projects[securepages][version] = 1.0-beta1
 
+projects[session_cache][subdir] = contrib
+projects[session_cache][version] = 1.3
+
 projects[shorten][subdir] = contrib
 projects[shorten][version] = 1.2
 
