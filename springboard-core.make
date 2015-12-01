@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.8.2.1-774053b
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.8.2.1-774053b
+projects[springboard][download][branch] = 7.x-4.x_quicksign_webform_integration
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
