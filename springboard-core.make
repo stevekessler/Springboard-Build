@@ -203,7 +203,7 @@ projects[token_insert][subdir] = contrib
 projects[token_insert][type] = module
 projects[token_insert][download][type] = git
 projects[token_insert][download][url] = http://git.drupal.org/project/token_insert.git
-projects[token_insert][download][branch] = 4630189ef4115ca05211507ddb3193d5af814f8b
+projects[token_insert][download][branch] = fb51fc1df136b4fd8550377a84d471fcd6262ee4
 
 projects[video_embed_field][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta7
