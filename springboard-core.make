@@ -263,6 +263,13 @@ libraries[mobiledetect][download][type] = git
 libraries[mobiledetect][download][url] = git://github.com/serbanghita/Mobile-Detect
 libraries[mobiledetect][download][branch] = 7a94b349c761503598c325d3e49bbcdd55c5c55e
 
+; PHP User Agent
+libraries[phpuseragent][directory_name] = phpuseragent
+libraries[phpuseragent][destination] = libraries
+libraries[phpuseragent][download][type] = git
+libraries[phpuseragent][download][url] = git://github.com/donatj/PhpUserAgent
+libraries[phpuseragent][download][branch] = 1acea75664179c8f0dcd57ced7e75a01af86bfa8
+
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
