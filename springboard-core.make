@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.x
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x
+projects[springboard][download][branch] = 7.x-4.x-700-webform-device-info
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -258,6 +258,20 @@ libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
 libraries[litle][download][branch] = 8.27.1-jr
+
+; Mobile Detect
+libraries[mobiledetect][directory_name] = mobiledetect
+libraries[mobiledetect][destination] = libraries
+libraries[mobiledetect][download][type] = git
+libraries[mobiledetect][download][url] = git://github.com/serbanghita/Mobile-Detect
+libraries[mobiledetect][download][branch] = 7a94b349c761503598c325d3e49bbcdd55c5c55e
+
+; PHP User Agent
+libraries[phpuseragent][directory_name] = phpuseragent
+libraries[phpuseragent][destination] = libraries
+libraries[phpuseragent][download][type] = git
+libraries[phpuseragent][download][url] = git://github.com/donatj/PhpUserAgent
+libraries[phpuseragent][download][branch] = 1acea75664179c8f0dcd57ced7e75a01af86bfa8
 
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
