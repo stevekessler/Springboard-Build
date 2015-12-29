@@ -136,6 +136,9 @@ projects[metatag][version] = 1.0-beta9
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 
+projects[oauth][subdir] = contrib
+projects[oauth][version] = 3.2
+
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.3
 
