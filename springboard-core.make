@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.39
+projects[drupal][version] = 7.41
 
 ;
 ; The Springboard repos.
@@ -14,13 +14,13 @@ projects[drupal][version] = 7.39
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.x
+projects[sbsetup][download][branch] = 7.x-4.9-beta1
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.x
+projects[springboard_themes][download][branch] = 7.x-4.9-beta1
 
 ; Springboard Modules
 projects[springboard][type] = module
@@ -97,10 +97,7 @@ projects[features][subdir] = contrib
 projects[features][version] = 2.0
 
 projects[formblock][subdir] = contrib
-projects[formblock][type] = module
-projects[formblock][download][type] = git
-projects[formblock][download][url] = http://git.drupal.org/project/formblock.git
-projects[formblock][download][branch] = 2d94c8323b2095e4c3e6470d31aa49063688dff6
+projects[formblock][version] =  1.0-alpha1
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
@@ -135,6 +132,9 @@ projects[metatag][version] = 1.0-beta9
 
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
+
+projects[oauth][subdir] = contrib
+projects[oauth][version] = 3.2
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.3
@@ -258,6 +258,20 @@ libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
 libraries[litle][download][branch] = 8.27.1-jr
+
+; Mobile Detect
+libraries[mobiledetect][directory_name] = mobiledetect
+libraries[mobiledetect][destination] = libraries
+libraries[mobiledetect][download][type] = git
+libraries[mobiledetect][download][url] = git://github.com/serbanghita/Mobile-Detect
+libraries[mobiledetect][download][branch] = 7a94b349c761503598c325d3e49bbcdd55c5c55e
+
+; PHP User Agent
+libraries[phpuseragent][directory_name] = phpuseragent
+libraries[phpuseragent][destination] = libraries
+libraries[phpuseragent][download][type] = git
+libraries[phpuseragent][download][url] = git://github.com/donatj/PhpUserAgent
+libraries[phpuseragent][download][branch] = 1acea75664179c8f0dcd57ced7e75a01af86bfa8
 
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
