@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.9-rc1
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.9-rc4
+projects[springboard][download][branch] = 7.x-4.9-rc5
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -88,7 +88,7 @@ projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0
 
 projects[fboauth][subdir] = contrib
-projects[fboauth][version] = 1.6
+projects[fboauth][version] = 2.0-rc3
 
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.3
@@ -131,7 +131,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta9
 
 projects[node_clone][subdir] = contrib
-projects[node_clone][version] = 1.0-rc1
+projects[node_clone][version] = 1.0
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
