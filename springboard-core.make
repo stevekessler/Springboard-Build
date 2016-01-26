@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.39
+projects[drupal][version] = 7.41
 
 ;
 ; The Springboard repos.
@@ -14,19 +14,19 @@ projects[drupal][version] = 7.39
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.x
+projects[sbsetup][download][branch] = 7.x-4.9
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.x
+projects[springboard_themes][download][branch] = 7.x-4.9
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x
+projects[springboard][download][branch] = 7.x-4.9
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -88,7 +88,7 @@ projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0
 
 projects[fboauth][subdir] = contrib
-projects[fboauth][version] = 1.6
+projects[fboauth][version] = 2.0-rc3
 
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.3
@@ -97,10 +97,7 @@ projects[features][subdir] = contrib
 projects[features][version] = 2.0
 
 projects[formblock][subdir] = contrib
-projects[formblock][type] = module
-projects[formblock][download][type] = git
-projects[formblock][download][url] = http://git.drupal.org/project/formblock.git
-projects[formblock][download][branch] = 2d94c8323b2095e4c3e6470d31aa49063688dff6
+projects[formblock][version] =  1.0-alpha1
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
@@ -134,7 +131,10 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta9
 
 projects[node_clone][subdir] = contrib
-projects[node_clone][version] = 1.0-rc1
+projects[node_clone][version] = 1.0
+
+projects[oauth][subdir] = contrib
+projects[oauth][version] = 3.2
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.3
@@ -259,6 +259,20 @@ libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
 libraries[litle][download][branch] = 8.27.1-jr
 
+; Mobile Detect
+libraries[mobiledetect][directory_name] = mobiledetect
+libraries[mobiledetect][destination] = libraries
+libraries[mobiledetect][download][type] = git
+libraries[mobiledetect][download][url] = git://github.com/serbanghita/Mobile-Detect
+libraries[mobiledetect][download][branch] = 7a94b349c761503598c325d3e49bbcdd55c5c55e
+
+; PHP User Agent
+libraries[phpuseragent][directory_name] = phpuseragent
+libraries[phpuseragent][destination] = libraries
+libraries[phpuseragent][download][type] = git
+libraries[phpuseragent][download][url] = git://github.com/donatj/PhpUserAgent
+libraries[phpuseragent][download][branch] = 1acea75664179c8f0dcd57ced7e75a01af86bfa8
+
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
@@ -308,7 +322,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.8.2.1-a9793b0/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.9/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
