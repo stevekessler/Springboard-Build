@@ -7,7 +7,7 @@ projects[cdn][subdir] = contrib
 projects[cdn][version] = 2.6
 
 projects[memcache][subdir] = contrib
-projects[memcache][version] = 1.0
+projects[memcache][version] = 1.5
 
 projects[new_relic_rpm][subdir] = contrib
 projects[new_relic_rpm][version] = 1.0-alpha1
