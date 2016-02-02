@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.38
+projects[drupal][version] = 7.41
 
 ;
 ; The Springboard repos.
@@ -54,17 +54,20 @@ projects[commerce_authnet][version] = 1.1
 projects[commerce_cardonfile][subdir] = contrib
 projects[commerce_cardonfile][version] = 2.0-beta1
 
+projects[commerce_currency_settings][subdir] = contrib
+projects[commerce_currency_settings][version] = 1.2
+
 projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.2
+projects[context][version] = 3.6
 
 projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.8
@@ -85,7 +88,7 @@ projects[draggableviews][subdir] = contrib
 projects[draggableviews][version] = 2.0
 
 projects[fboauth][subdir] = contrib
-projects[fboauth][version] = 1.6
+projects[fboauth][version] = 2.0-rc3
 
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.3
@@ -94,10 +97,7 @@ projects[features][subdir] = contrib
 projects[features][version] = 2.0
 
 projects[formblock][subdir] = contrib
-projects[formblock][type] = module
-projects[formblock][download][type] = git
-projects[formblock][download][url] = http://git.drupal.org/project/formblock.git
-projects[formblock][download][branch] = 2d94c8323b2095e4c3e6470d31aa49063688dff6
+projects[formblock][version] =  1.0-alpha1
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
@@ -131,10 +131,13 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta9
 
 projects[node_clone][subdir] = contrib
-projects[node_clone][version] = 1.0-rc1
+projects[node_clone][version] = 1.0
+
+projects[oauth][subdir] = contrib
+projects[oauth][version] = 3.2
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.2
+projects[pathauto][version] = 1.3
 
 projects[pm_existing_pages][subdir] = contrib
 projects[pm_existing_pages][type] = module
@@ -181,6 +184,12 @@ projects[shorten][version] = 1.2
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
+projects[tfa][subdir] = contrib
+projects[tfa][version] = 2.0-beta2
+
+projects[tfa_basic][subdir] = contrib
+projects[tfa_basic][version] = 1.0-beta2
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
@@ -203,7 +212,7 @@ projects[views][subdir] = contrib
 projects[views][version] = 3.11
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.3
 
 projects[views_conditional][subdir] = contrib
 projects[views_conditional][version] = 1.1
@@ -213,9 +222,6 @@ projects[views_watchdog][version] = 3.3
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.23
-
-projects[webform_ab][subdir] = contrib
-projects[webform_ab][version] = 2.3
 
 projects[webform_tokens][subdir] = contrib
 projects[webform_tokens][version] = 1.5-rc1
@@ -231,6 +237,9 @@ projects[honeypot][version] = 1.17
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.11
+
+projects[new_relic_rpm][subdir] = contrib
+projects[new_relic_rpm][version] = 1.0-alpha2
 
 ;
 ; Libraries
@@ -250,6 +259,20 @@ libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
 libraries[litle][download][branch] = 8.27.1-jr
 
+; Mobile Detect
+libraries[mobiledetect][directory_name] = mobiledetect
+libraries[mobiledetect][destination] = libraries
+libraries[mobiledetect][download][type] = git
+libraries[mobiledetect][download][url] = git://github.com/serbanghita/Mobile-Detect
+libraries[mobiledetect][download][branch] = 7a94b349c761503598c325d3e49bbcdd55c5c55e
+
+; PHP User Agent
+libraries[phpuseragent][directory_name] = phpuseragent
+libraries[phpuseragent][destination] = libraries
+libraries[phpuseragent][download][type] = git
+libraries[phpuseragent][download][url] = git://github.com/donatj/PhpUserAgent
+libraries[phpuseragent][download][branch] = 1acea75664179c8f0dcd57ced7e75a01af86bfa8
+
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
@@ -259,6 +282,14 @@ libraries[salesforce][download][url] = git://github.com/developerforce/Force.com
 ;libraries[salesforce][download][branch] = 0b1f2d78ce66249f4a9b8d6cb4dfeb07a182e7d7
 ; Newer version, contains soap bug
 libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a98925289
+
+; Twilio
+libraries[twilio][download][type] = "git"
+libraries[twilio][download][url] = "https://github.com/twilio/twilio-php.git"
+; Last commit at version 4.3.0.
+libraries[twilio][download][revision] = "9b83e2f1c480e3fb4e05a833b325c5afa43520fb"
+libraries[twilio][destination] = "modules/contrib/tfa_basic/includes"
+libraries[twilio][directory_name] = "twilio-php"
 
 ; WYSIWYG ckeditor library
 libraries[ckeditor][download][type] = file
@@ -291,16 +322,10 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.7.1/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.9/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
 
-; Create Views for Better Managing Webform A/B tests
-projects[webform_ab][patch][2291297] = https://www.drupal.org/files/issues/webform_ab-views-2291297-1.patch
-
 ; Add a [current-page:object:?] dynamic token (see: https://www.drupal.org/node/919760)
 projects[token][patch][919760] = https://drupal.org/files/token-current_page_object_token-919760-9.patch
-
-; Fix syntax error in Webform A/B jQuery
-projects[webform_ab][patch][2510440] = https://www.drupal.org/files/issues/webform_ab-SQL-syntax-error-2510440.patch
