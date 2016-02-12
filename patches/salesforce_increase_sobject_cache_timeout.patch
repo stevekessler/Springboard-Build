@@ -9,7 +9,7 @@ index 0493e01..6db4421 100644
 -    // Force the recreation of the cache when it is older than 5 minutes.
 -    if ($cache && REQUEST_TIME < ($cache->created + 300) && !$reset) {
 +    // Force the recreation of the cache when it is older than 1 hour.
-+    if ($cache && REQUEST_TIME < ($cache->created + 3600) && !$reset) {
++    if ($cache && REQUEST_TIME < ($cache->created + variable_get('salesforce_sobject_cache_lifetime', 3600)) && !$reset) {
        $result = $cache->data;
      }
      else {
