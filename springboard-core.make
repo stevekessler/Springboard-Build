@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.42
+projects[drupal][version] = 7.43
 
 ;
 ; The Springboard repos.
@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.9.1
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.9.2-beta
+projects[springboard][download][branch] = 7.x-4.9.2-beta2
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -91,7 +91,7 @@ projects[fboauth][subdir] = contrib
 projects[fboauth][version] = 2.0-rc3
 
 projects[field_group][subdir] = contrib
-projects[field_group][version] = 1.3
+projects[field_group][version] = 1.5
 
 projects[features][subdir] = contrib
 projects[features][version] = 2.0
