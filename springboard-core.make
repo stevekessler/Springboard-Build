@@ -20,13 +20,13 @@ projects[sbsetup][download][branch] = 7.x-4.x
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.x-253-donation-report-sort
+projects[springboard_themes][download][branch] = 7.x-4.x
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x
+projects[springboard][download][branch] = 7.x-4.x-253-donation-report-sort
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
