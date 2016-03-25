@@ -73,7 +73,7 @@ projects[date][subdir] = contrib
 projects[date][version] = 2.8
 
 projects[encrypt][subdir] = contrib
-projects[encrypt][version] = 1.1
+projects[encrypt][version] = 2.3
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.6
