@@ -14,7 +14,7 @@ projects[drupal][version] = 7.43
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.x
+projects[sbsetup][download][branch] = 7.x-4.9.2-hotfix-smarty-streets-api
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
@@ -240,6 +240,13 @@ projects[password_policy][version] = 1.11
 
 projects[new_relic_rpm][subdir] = contrib
 projects[new_relic_rpm][version] = 1.0-alpha2
+
+; cURL HTTP Request (use curl instead of sockets for HTTP API requests)
+projects[chr][subdir] = contrib
+projects[chr][type] = module
+projects[chr][download][type] = git
+projects[chr][download][url] = http://git.drupal.org/project/chr.git
+projects[chr][download][branch] = a340d134d4db12b5736d0a57a7cc63acdf96a899
 
 ;
 ; Libraries
