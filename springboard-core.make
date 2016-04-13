@@ -181,6 +181,9 @@ projects[securepages][version] = 1.0-beta1
 projects[shorten][subdir] = contrib
 projects[shorten][version] = 1.2
 
+projects[smtp][subdir] = contrib
+projects[smtp][version] = 1.3
+
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
