@@ -35,6 +35,13 @@ libraries[springboard_sdk_php][destination] = libraries
 libraries[springboard_sdk_php][download][type] = git
 libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/springboard-sdk-php.git
 
+; Springboard composer dependencies
+libraries[springboard_composer_dependencies][directory_name] = springboard_composer
+libraries[springboard_composer_dependencies][type] = library
+libraries[springboard_composer_dependencies][destination] = libraries
+libraries[springboard_composer_dependencies][download][type] = git
+libraries[springboard_composer_dependencies][download][url] = git://github.com/JacksonRiver/springboard-composer-vendor.git
+
 ;
 ; Contrib modules
 ;
