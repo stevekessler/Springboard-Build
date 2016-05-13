@@ -14,13 +14,13 @@ projects[drupal][version] = 7.43
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.10-beta1
+projects[sbsetup][download][branch] = 7.x-4.10-rc1
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.10-beta1
+projects[springboard_themes][download][branch] = 7.x-4.10-rc1
 
 ; Springboard Modules
 projects[springboard][type] = module
