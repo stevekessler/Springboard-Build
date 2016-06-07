@@ -338,3 +338,6 @@ projects[token][patch][919760] = https://drupal.org/files/token-current_page_obj
 
 ; Commerce paypal SSL fix
 projects[commerce_paypal][patch][2616730] = https://www.drupal.org/files/issues/use-tls.patch
+
+; Commerce paypal patch to use HTTP 1.1
+projects[commerce_paypal][patch][2263585] = https://www.drupal.org/files/issues/paypal_IPN_http1.1_and_TLS1_support-2263585-%232.patch
