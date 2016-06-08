@@ -260,7 +260,7 @@ libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
 libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
-libraries[litle][download][branch] = 8.27.1-jr
+libraries[litle][download][branch] = jacksonriver-8.27_ssl_update
 
 ; Mobile Detect
 libraries[mobiledetect][directory_name] = mobiledetect
