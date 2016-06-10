@@ -338,3 +338,6 @@ projects[token][patch][919760] = https://drupal.org/files/token-current_page_obj
 
 ; Commerce paypal SSL fix
 projects[commerce_paypal][patch][2616730] = https://www.drupal.org/files/issues/use-tls.patch
+
+; Commerce authnet patch to update URLs
+projects[commerce_authnet][patch][2533826] = https://www.drupal.org/files/issues/update_to_akamai-2533826-1.patch
