@@ -49,7 +49,7 @@ projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.11
 
 projects[commerce_authnet][subdir] = contrib
-projects[commerce_authnet][version] = 1.4
+projects[commerce_authnet][version] = 1.1
 
 projects[commerce_cardonfile][subdir] = contrib
 projects[commerce_cardonfile][version] = 2.0-beta1
