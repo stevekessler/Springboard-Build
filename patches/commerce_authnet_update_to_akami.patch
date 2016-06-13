@@ -1,0 +1,22 @@
+diff --git a/commerce_authnet/commerce_authnet.module b/commerce_authnet/commerce_authnet.module
+index d54d1e2..585e516 100644
+--- a/commerce_authnet/commerce_authnet.module
++++ b/commerce_authnet/commerce_authnet.module
+@@ -1206,7 +1206,7 @@ function commerce_authnet_aim_server_url($txn_mode) {
+   switch ($txn_mode) {
+     case AUTHNET_TXN_MODE_LIVE:
+     case AUTHNET_TXN_MODE_LIVE_TEST:
+-      return 'https://secure.authorize.net/gateway/transact.dll';
++      return 'https://secure2.authorize.net/gateway/transact.dll';
+     case AUTHNET_TXN_MODE_DEVELOPER:
+       return 'https://test.authorize.net/gateway/transact.dll';
+   }
+@@ -1361,7 +1361,7 @@ function commerce_authnet_cim_server_url($txn_mode) {
+   switch ($txn_mode) {
+     case AUTHNET_TXN_MODE_LIVE:
+     case AUTHNET_TXN_MODE_LIVE_TEST:
+-      return 'https://api.authorize.net/xml/v1/request.api';
++      return 'https://api2.authorize.net/xml/v1/request.api';
+     case AUTHNET_TXN_MODE_DEVELOPER:
+       return 'https://apitest.authorize.net/xml/v1/request.api';
+   }
