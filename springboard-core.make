@@ -49,7 +49,7 @@ projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.11
 
 projects[commerce_authnet][subdir] = contrib
-projects[commerce_authnet][version] = 1.1
+projects[commerce_authnet][version] = 1.4
 
 projects[commerce_cardonfile][subdir] = contrib
 projects[commerce_cardonfile][version] = 2.0-beta1
@@ -340,4 +340,4 @@ projects[token][patch][919760] = https://drupal.org/files/token-current_page_obj
 projects[commerce_paypal][patch][2616730] = https://www.drupal.org/files/issues/use-tls.patch
 
 ; Commerce authnet patch to update URLs
-projects[commerce_authnet][patch][2533826] = https://www.drupal.org/files/issues/update_to_akamai-2533826-1.patch
+projects[commerce_authnet][patch][2533826] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x_922_patch-commerce-authnet-module/patches/commerce_authnet_update_to_akami.patch
