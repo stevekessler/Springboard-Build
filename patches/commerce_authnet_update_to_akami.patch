@@ -1,7 +1,7 @@
-diff --git a/commerce_authnet/commerce_authnet.module b/commerce_authnet/commerce_authnet.module
+diff --git a/commerce_authnet.module b/commerce_authnet.module
 index d54d1e2..585e516 100644
---- a/commerce_authnet/commerce_authnet.module
-+++ b/commerce_authnet/commerce_authnet.module
+--- a/commerce_authnet.module
++++ b/commerce_authnet.module
 @@ -1206,7 +1206,7 @@ function commerce_authnet_aim_server_url($txn_mode) {
    switch ($txn_mode) {
      case AUTHNET_TXN_MODE_LIVE:
