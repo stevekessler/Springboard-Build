@@ -184,6 +184,9 @@ projects[shorten][version] = 1.2
 projects[smtp][subdir] = contrib
 projects[smtp][version] = 1.3
 
+projects[strip_utf8mb4][subdir] = contrib
+projects[strip_utf8mb4][version] = 7.x-1.x-dev
+
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
