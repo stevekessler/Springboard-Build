@@ -341,3 +341,6 @@ projects[token][patch][919760] = https://drupal.org/files/token-current_page_obj
 
 ; Commerce paypal SSL fix
 projects[commerce_paypal][patch][2616730] = https://www.drupal.org/files/issues/use-tls.patch
+
+; Fixes a warning with the node_expire module when enabling a module that creates sample content (springboard_petition)
+projects[node_expire][patch][2751087] = https://www.drupal.org/files/issues/fix_expire_property_warning-2751087-1.patch
