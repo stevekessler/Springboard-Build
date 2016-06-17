@@ -212,7 +212,7 @@ projects[video_embed_field][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta7
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.11
+projects[views][version] = 3.14
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.3
