@@ -344,3 +344,9 @@ projects[commerce_paypal][patch][2616730] = https://www.drupal.org/files/issues/
 
 ; Commerce authnet patch to update URLs
 projects[commerce_authnet][patch][2533826] = https://raw.githubusercontent.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/commerce_authnet_update_to_akami.patch?2
+
+; strip_utf8mb4 patch for null value in webform
+projects[strip_utf8mb4][patch][2654088] = https://www.drupal.org/files/issues/webform_submission_data_valu2654088-e.patch
+
+; strip_utf8mb4 patch to deactivate invalid characters message
+projects[strip_utf8mb4][patch][2654104] = https://www.drupal.org/files/issues/2654104-message-trigger.patch
