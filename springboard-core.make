@@ -14,7 +14,7 @@ projects[drupal][version] = 7.43
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.x
+projects[sbsetup][download][branch] = 7.x-4.x_1094_add-strip-utf8mb4-module
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
