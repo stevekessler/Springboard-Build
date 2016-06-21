@@ -337,7 +337,7 @@ projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_r
 projects[token][patch][919760] = https://drupal.org/files/token-current_page_object_token-919760-9.patch
 
 ; Commerce paypal SSL fix
-projects[commerce_paypal][patch][2616730] = https://www.drupal.org/files/issues/use-tls.patch
+projects[commerce_paypal][patch][2263585] = https://www.drupal.org/files/issues/paypal_IPN_http1.1_and_TLS1_support-2263585-%232.patch
 
 ; Commerce authnet patch to update URLs
 projects[commerce_authnet][patch][2533826] = https://raw.githubusercontent.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/commerce_authnet_update_to_akami.patch?2
