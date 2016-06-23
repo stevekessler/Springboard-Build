@@ -236,7 +236,7 @@ projects[services][subdir] = contrib
 projects[services][version] = 3.12
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.17
+projects[honeypot][version] = 1.22
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.11
