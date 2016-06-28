@@ -157,6 +157,9 @@ projects[panelizer][download][branch] = 8e619d3118f79eaea626f6a1a3742422ac13810c
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.4
 
+projects[publishcontent][subdir] = contrib
+projects[publishcontent][version] = 1.3
+
 projects[views_data_export][subdir] = contrib
 projects[views_data_export][version] = 3.0-beta8
 
