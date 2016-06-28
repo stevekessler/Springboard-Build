@@ -133,6 +133,9 @@ projects[metatag][version] = 1.0-beta9
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0
 
+projects[node_expire][subdir] = contrib
+projects[node_expire][version] = 1.8
+
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
 
@@ -183,6 +186,9 @@ projects[shorten][version] = 1.2
 
 projects[smtp][subdir] = contrib
 projects[smtp][version] = 1.3
+
+projects[strip_utf8mb4][subdir] = contrib
+projects[strip_utf8mb4][version] = 1.x-dev
 
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
@@ -341,3 +347,12 @@ projects[commerce_paypal][patch][2263585] = https://www.drupal.org/files/issues/
 
 ; Commerce authnet patch to update URLs
 projects[commerce_authnet][patch][2533826] = https://raw.githubusercontent.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/commerce_authnet_update_to_akami.patch?2
+
+; Fixes a warning with the node_expire module when enabling a module that creates sample content (springboard_petition)
+projects[node_expire][patch][2751087] = https://www.drupal.org/files/issues/fix_expire_property_warning-2751087-4.patch
+
+; strip_utf8mb4 patch for null value in webform
+projects[strip_utf8mb4][patch][2654088] = https://www.drupal.org/files/issues/webform_submission_data_valu2654088-e.patch
+
+; strip_utf8mb4 patch to deactivate invalid characters message
+projects[strip_utf8mb4][patch][2654104] = https://www.drupal.org/files/issues/2654104-message-trigger.patch
