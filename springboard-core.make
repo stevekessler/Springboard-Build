@@ -39,6 +39,12 @@ libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/sp
 ; Multilingual contrib modules
 ;
 
+projects[variable][type] = module
+projects[variable][download][type] = git
+projects[variable][subdir] = contrib
+projects[variable][download][url] = http://git.drupal.org/project/variable.git
+projects[variable][download][branch] = e663f92e6f96b4bbfb8956af871bd93e8a199eca
+
 projects[i18n][type] = module
 projects[i18n][download][type] = git
 projects[i18n][subdir] = contrib
