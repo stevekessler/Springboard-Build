@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.x
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x
+projects[springboard][download][branch] = 7.x-4.x-1051-i18n-direct-translation
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -34,6 +34,28 @@ libraries[springboard_sdk_php][type] = library
 libraries[springboard_sdk_php][destination] = libraries
 libraries[springboard_sdk_php][download][type] = git
 libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/springboard-sdk-php.git
+
+;
+; Multilingual contrib modules
+;
+
+projects[i18n][type] = module
+projects[i18n][download][type] = git
+projects[i18n][subdir] = contrib
+projects[i18n][download][url] = http://git.drupal.org/project/i18n.git
+projects[i18n][download][branch] = c5ed2b268c7f4a77eaa79e9151660230d3d63fdd
+
+projects[entity_translation][type] = module
+projects[entity_translation][download][type] = git
+projects[entity_translation][subdir] = contrib
+projects[entity_translation][download][url] = http://git.drupal.org/project/entity_translation.git
+projects[entity_translation][download][branch] = 9fc9e4a2f505a4e4ecc41703b7597b8dcc7afba8
+
+projects[webform_localization][type] = module
+projects[webform_localization][download][type] = git
+projects[webform_localization][subdir] = contrib
+projects[webform_localization][download][url] = http://git.drupal.org/project/webform_localization.git
+projects[webform_localization][download][branch] = 6fe4964c5ab6d2ce9e8f36e0695eb6eed6ef829c
 
 ;
 ; Contrib modules
