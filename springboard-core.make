@@ -43,7 +43,7 @@ projects[variable][type] = module
 projects[variable][download][type] = git
 projects[variable][subdir] = contrib
 projects[variable][download][url] = http://git.drupal.org/project/variable.git
-projects[variable][download][branch] = e663f92e6f96b4bbfb8956af871bd93e8a199eca
+projects[variable][download][branch] = 83c00d0daed27175cd8de9134dd047e617bcedf0
 
 projects[i18n][type] = module
 projects[i18n][download][type] = git
