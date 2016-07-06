@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] =
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 
+projects[springboard][download][branch] = 7.x-4.11-beta-1142-error-notice-of-ticketed-event
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
