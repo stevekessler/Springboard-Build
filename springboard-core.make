@@ -61,7 +61,7 @@ projects[webform_localization][type] = module
 projects[webform_localization][download][type] = git
 projects[webform_localization][subdir] = contrib
 projects[webform_localization][download][url] = http://git.drupal.org/project/webform_localization.git
-projects[webform_localization][download][branch] = 67d43a760c90fc169a455140c01969a5c944e4ca
+projects[webform_localization][download][branch] = 9bf7c5515349edb0e963bba6c0ff801c2da6c808
 
 ;
 ; Contrib modules
