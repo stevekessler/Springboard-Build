@@ -361,4 +361,4 @@ projects[strip_utf8mb4][patch][2654088] = https://www.drupal.org/files/issues/we
 projects[strip_utf8mb4][patch][2654104] = https://www.drupal.org/files/issues/2654104-message-trigger.patch
 
 ; Fix datetime warnings in node_expire
-projects[node_expire][patch][2762403] = https://www.drupal.org/files/issues/fix_datetime_warnings-2762403-2.patch
+projects[node_expire][patch][2762403] = https://www.drupal.org/files/issues/fix_datetime_warnings_for_1.8-2762403-3.patch
