@@ -130,6 +130,9 @@ projects[link][version] = 1.2
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta9
 
+projects[multiblock][subdir] = contrib
+projects[multiblock][version] = 1.4
+
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0
 
