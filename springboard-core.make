@@ -248,6 +248,13 @@ projects[new_relic_rpm][version] = 1.0-alpha2
 ; Libraries
 ;
 
+; Braintree
+libraries[braintree_php][directory_name] = braintree_php
+libraries[braintree_php][type] = library
+libraries[braintree_php][destination] = libraries
+libraries[braintree_php][download][type] = git
+libraries[braintree_php][download][url] = https://github.com/braintree/braintree_php.git
+
 ; FitVids
 libraries[fitvids][directory_name] = fitvids
 libraries[fitvids][type] = library
