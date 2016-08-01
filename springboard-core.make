@@ -34,7 +34,7 @@ libraries[springboard_sdk_php][type] = library
 libraries[springboard_sdk_php][destination] = libraries
 libraries[springboard_sdk_php][download][type] = git
 libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/springboard-sdk-php.git
-libraries[springboard_sdk_php][download][branch] = master-advocacy-target-groups
+libraries[springboard_sdk_php][download][branch] = 7.x-4.x_custom_target_groups
 
 
 ;
