@@ -20,13 +20,13 @@ projects[sbsetup][download][branch] = 7.x-4.x
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
-projects[springboard_themes][download][branch] = 7.x-4.x
+projects[springboard_themes][download][branch] = 7.x-4.x-advocacy-target-groups
 
 ; Springboard Modules
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x_custom_target_groups
+projects[springboard][download][branch] = 7.x-4.x-advocacy-target-groups
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -34,7 +34,7 @@ libraries[springboard_sdk_php][type] = library
 libraries[springboard_sdk_php][destination] = libraries
 libraries[springboard_sdk_php][download][type] = git
 libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/springboard-sdk-php.git
-libraries[springboard_sdk_php][download][branch] = 7.x-4.x_custom_target_groups
+libraries[springboard_sdk_php][download][branch] = 7.x-4.x-advocacy-target-groups
 
 
 ;
