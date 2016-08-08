@@ -67,17 +67,20 @@ projects[commerce_currency_settings][version] = 1.2
 projects[commerce_paypal][subdir] = contrib
 projects[commerce_paypal][version] = 2.2
 
-projects[context][subdir] = contrib
-projects[context][version] = 3.6
-
 projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
+
+projects[context][subdir] = contrib
+projects[context][version] = 3.6
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.9
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.8
+
+projects[draggableviews][subdir] = contrib
+projects[draggableviews][version] = 2.0
 
 projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 1.1
@@ -91,23 +94,23 @@ projects[entityreference][version] = 1.1
 projects[entityreference_prepopulate][subdir] = contrib
 projects[entityreference_prepopulate][version] = 1.5
 
-projects[draggableviews][subdir] = contrib
-projects[draggableviews][version] = 2.0
-
 projects[fboauth][subdir] = contrib
 projects[fboauth][version] = 2.0-rc3
 
-projects[field_group][subdir] = contrib
-projects[field_group][version] = 1.3
-
 projects[features][subdir] = contrib
 projects[features][version] = 2.0
+
+projects[field_group][subdir] = contrib
+projects[field_group][version] = 1.3
 
 projects[formblock][subdir] = contrib
 projects[formblock][version] =  1.0-alpha1
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
+
+projects[honeypot][subdir] = contrib
+projects[honeypot][version] = 1.22
 
 projects[imce][subdir] = contrib
 projects[imce][version] = 1.8
@@ -137,6 +140,9 @@ projects[link][version] = 1.2
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta9
 
+projects[new_relic_rpm][subdir] = contrib
+projects[new_relic_rpm][version] = 1.0-alpha2
+
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0
 
@@ -145,15 +151,6 @@ projects[node_expire][version] = 1.8
 
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
-
-projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.3
-
-projects[pm_existing_pages][subdir] = contrib
-projects[pm_existing_pages][type] = module
-projects[pm_existing_pages][download][type] = git
-projects[pm_existing_pages][download][url] = http://git.drupal.org/project/pm_existing_pages.git
-projects[pm_existing_pages][download][branch] = e0451cc00e9661aaa70feeef35cf79aaf39710f7
 
 projects[panelizer][subdir] = contrib
 projects[panelizer][type] = module
@@ -164,23 +161,32 @@ projects[panelizer][download][branch] = 8e619d3118f79eaea626f6a1a3742422ac13810c
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.4
 
-projects[publishcontent][subdir] = contrib
-projects[publishcontent][version] = 1.3
-
-projects[views_data_export][subdir] = contrib
-projects[views_data_export][version] = 3.0-beta8
-
 projects[panels_extra_styles][subdir] = contrib
 projects[panels_extra_styles][version] = 1.1
 
-projects[rules][subdir] = contrib
-projects[rules][version] = 2.3
+projects[password_policy][subdir] = contrib
+projects[password_policy][version] = 1.11
+
+projects[pathauto][subdir] = contrib
+projects[pathauto][version] = 1.3
+
+projects[pm_existing_pages][subdir] = contrib
+projects[pm_existing_pages][type] = module
+projects[pm_existing_pages][download][type] = git
+projects[pm_existing_pages][download][url] = http://git.drupal.org/project/pm_existing_pages.git
+projects[pm_existing_pages][download][branch] = e0451cc00e9661aaa70feeef35cf79aaf39710f7
+
+projects[publishcontent][subdir] = contrib
+projects[publishcontent][version] = 1.3
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
 
 projects[region_tokens][subdir] = contrib
 projects[region_tokens][version] = 1.0-rc3
+
+projects[rules][subdir] = contrib
+projects[rules][version] = 2.3
 
 projects[salesforce][subdir] = contrib
 projects[salesforce][type] = module
@@ -190,6 +196,9 @@ projects[salesforce][download][branch] = e2b4ce0ffcd5c8e5f862f695a7bd2d4e915f1dc
 
 projects[securepages][subdir] = contrib
 projects[securepages][version] = 1.0-beta1
+
+projects[services][subdir] = contrib
+projects[services][version] = 3.12
 
 projects[shorten][subdir] = contrib
 projects[shorten][version] = 1.2
@@ -236,6 +245,9 @@ projects[views_bulk_operations][version] = 3.3
 projects[views_conditional][subdir] = contrib
 projects[views_conditional][version] = 1.1
 
+projects[views_data_export][subdir] = contrib
+projects[views_data_export][version] = 3.0-beta8
+
 projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
 
@@ -247,18 +259,6 @@ projects[webform_tokens][version] = 1.5-rc1
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
-
-projects[services][subdir] = contrib
-projects[services][version] = 3.12
-
-projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.22
-
-projects[password_policy][subdir] = contrib
-projects[password_policy][version] = 1.11
-
-projects[new_relic_rpm][subdir] = contrib
-projects[new_relic_rpm][version] = 1.0-alpha2
 
 ;
 ; Libraries
