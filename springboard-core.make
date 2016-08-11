@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.11
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.11-rc8-1145-cloning-message-action-loses-custom-success-msg
+projects[springboard][download][branch] = 7.x-4.11.2-hotfix-t1232
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
