@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.11.2
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.11.2
+projects[springboard][download][branch] = 7.x-4.x_1234_fix-minimum-donation-amount-on-recurring-donations
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
