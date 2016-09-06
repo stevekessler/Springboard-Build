@@ -370,3 +370,6 @@ projects[strip_utf8mb4][patch][2654104] = https://www.drupal.org/files/issues/26
 
 ; Fix datetime warnings in node_expire
 projects[node_expire][patch][2762403] = https://www.drupal.org/files/issues/fix_datetime_warnings_for_1.8-2762403-3.patch
+
+; Add validation for Authnet settings on save or cron
+projects[commerce_authnet][patch][2796055] = https://www.drupal.org/files/issues/validate_authnet_settings_7.x_1.1-2796055-1.patch
