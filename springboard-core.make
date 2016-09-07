@@ -46,6 +46,12 @@ libraries[springboard_composer_dependencies][download][url] = git://github.com/J
 ; Contrib modules
 ;
 
+projects[og][subdir] = contrib
+projects[og][version] = 2.9
+
+projects[og_extras][subdir] = contrib
+projects[og_extras][version] = 1.2
+
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.1
 
