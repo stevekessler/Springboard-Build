@@ -27,7 +27,7 @@ projects[springboard_themes][download][branch] = 7.x-4.x
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x_1063-fix-fboauth-redirect
+projects[springboard][download][branch] = 7.x-4.x
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -372,4 +372,4 @@ projects[strip_utf8mb4][patch][2654104] = https://www.drupal.org/files/issues/26
 projects[node_expire][patch][2762403] = https://www.drupal.org/files/issues/fix_datetime_warnings_for_1.8-2762403-3.patch
 
 ; Fix javascript redirect bug with fboauth
-projects[fboauth][patch][2793219] = https://www.drupal.org/files/issues/decode_url_before_redirecting_js-2793219-1.patch
+projects[fboauth][patch][2799513] = https://www.drupal.org/files/issues/fix_redirect_uri-2799513-1.patch
