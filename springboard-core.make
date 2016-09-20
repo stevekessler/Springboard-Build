@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.43
+projects[drupal][version] = 7.44
 
 ;
 ; The Springboard repos.
@@ -15,6 +15,7 @@ projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
 projects[sbsetup][download][branch] = 7.x-4.x
+
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
@@ -34,6 +35,13 @@ libraries[springboard_sdk_php][type] = library
 libraries[springboard_sdk_php][destination] = libraries
 libraries[springboard_sdk_php][download][type] = git
 libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/springboard-sdk-php.git
+
+; Springboard Composer dependencies
+libraries[springboard_composer_dependencies][directory_name] = springboard_composer
+libraries[springboard_composer_dependencies][type] = library
+libraries[springboard_composer_dependencies][destination] = libraries
+libraries[springboard_composer_dependencies][download][type] = git
+libraries[springboard_composer_dependencies][download][url] = git://github.com/JacksonRiver/springboard-composer-vendor.git
 
 ;
 ; Contrib modules
@@ -133,6 +141,9 @@ projects[metatag][version] = 1.0-beta9
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0
 
+projects[node_expire][subdir] = contrib
+projects[node_expire][version] = 1.8
+
 projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.2
 
@@ -153,6 +164,9 @@ projects[panelizer][download][branch] = 8e619d3118f79eaea626f6a1a3742422ac13810c
 
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.4
+
+projects[publishcontent][subdir] = contrib
+projects[publishcontent][version] = 1.3
 
 projects[views_data_export][subdir] = contrib
 projects[views_data_export][version] = 3.0-beta8
@@ -184,6 +198,9 @@ projects[shorten][version] = 1.2
 projects[smtp][subdir] = contrib
 projects[smtp][version] = 1.3
 
+projects[strip_utf8mb4][subdir] = contrib
+projects[strip_utf8mb4][version] = 1.x-dev
+
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
@@ -212,7 +229,7 @@ projects[video_embed_field][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta7
 
 projects[views][subdir] = contrib
-projects[views][version] = 3.11
+projects[views][version] = 3.14
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.3
@@ -236,7 +253,7 @@ projects[services][subdir] = contrib
 projects[services][version] = 3.12
 
 projects[honeypot][subdir] = contrib
-projects[honeypot][version] = 1.17
+projects[honeypot][version] = 1.22
 
 projects[password_policy][subdir] = contrib
 projects[password_policy][version] = 1.11
@@ -328,7 +345,7 @@ projects[salesforce][patch][] = https://raw.github.com/JacksonRiver/Springboard-
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.10.2/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.11.4/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
@@ -337,7 +354,19 @@ projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_r
 projects[token][patch][919760] = https://drupal.org/files/token-current_page_object_token-919760-9.patch
 
 ; Commerce paypal SSL fix
-projects[commerce_paypal][patch][2616730] = https://www.drupal.org/files/issues/use-tls.patch
+projects[commerce_paypal][patch][2263585] = https://www.drupal.org/files/issues/paypal_IPN_http1.1_and_TLS1_support-2263585-%232.patch
 
 ; Commerce authnet patch to update URLs
 projects[commerce_authnet][patch][2533826] = https://raw.githubusercontent.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/commerce_authnet_update_to_akami.patch?2
+
+; Fixes a warning with the node_expire module when enabling a module that creates sample content (springboard_petition)
+projects[node_expire][patch][2751087] = https://www.drupal.org/files/issues/fix_expire_property_warning-2751087-4.patch
+
+; strip_utf8mb4 patch for null value in webform
+projects[strip_utf8mb4][patch][2654088] = https://www.drupal.org/files/issues/webform_submission_data_valu2654088-e.patch
+
+; strip_utf8mb4 patch to deactivate invalid characters message
+projects[strip_utf8mb4][patch][2654104] = https://www.drupal.org/files/issues/2654104-message-trigger.patch
+
+; Fix datetime warnings in node_expire
+projects[node_expire][patch][2762403] = https://www.drupal.org/files/issues/fix_datetime_warnings_for_1.8-2762403-3.patch
