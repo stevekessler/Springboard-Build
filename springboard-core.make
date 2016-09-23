@@ -160,13 +160,10 @@ projects[pm_existing_pages][download][url] = http://git.drupal.org/project/pm_ex
 projects[pm_existing_pages][download][branch] = e0451cc00e9661aaa70feeef35cf79aaf39710f7
 
 projects[panelizer][subdir] = contrib
-projects[panelizer][type] = module
-projects[panelizer][download][type] = git
-projects[panelizer][download][url] = http://git.drupal.org/project/panelizer.git
-projects[panelizer][download][branch] = 8e619d3118f79eaea626f6a1a3742422ac13810c
+projects[panelizer][version] = 3.4
 
 projects[panels][subdir] = contrib
-projects[panels][version] = 3.4
+projects[panels][version] = 3.7
 
 projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = 1.3
