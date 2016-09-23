@@ -171,6 +171,9 @@ projects[publishcontent][version] = 1.3
 projects[views_data_export][subdir] = contrib
 projects[views_data_export][version] = 3.0-beta8
 
+projects[views_litepager][subdir] = contrib
+projects[views_litepager][version] = 7.x-3.0
+
 projects[panels_extra_styles][subdir] = contrib
 projects[panels_extra_styles][version] = 1.1
 
