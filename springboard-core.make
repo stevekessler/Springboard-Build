@@ -373,3 +373,6 @@ projects[strip_utf8mb4][patch][2654104] = https://www.drupal.org/files/issues/26
 
 ; Fix datetime warnings in node_expire
 projects[node_expire][patch][2762403] = https://www.drupal.org/files/issues/fix_datetime_warnings_for_1.8-2762403-3.patch
+
+; Fix javascript redirect bug with fboauth
+projects[fboauth][patch][2799513] = https://www.drupal.org/files/issues/fix_redirect_uri-2799513-1.patch
