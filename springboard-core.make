@@ -60,7 +60,7 @@ projects[commerce_authnet][subdir] = contrib
 projects[commerce_authnet][version] = 1.1
 
 projects[commerce_cardonfile][subdir] = contrib
-projects[commerce_cardonfile][version] = 2.0-beta1
+projects[commerce_cardonfile][version] = 2.0-beta5
 
 projects[commerce_currency_settings][subdir] = contrib
 projects[commerce_currency_settings][version] = 1.2
