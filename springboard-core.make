@@ -27,7 +27,7 @@ projects[springboard_themes][download][branch] = 7.x-4.12-beta
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.12-beta
+projects[springboard][download][branch] = 7.x-4.x-1051-multilingual-fundraiser
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -118,6 +118,23 @@ projects[imce][version] = 1.8
 
 projects[imce_wysiwyg][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.0
+
+; Multilingual modules:
+projects[entity_translation][subdir] = contrib
+projects[entity_translation][version] = 1.0-beta5
+
+projects[i18n][subdir] = contrib
+projects[i18n][version] = 1.13
+
+projects[i18n_translation][subdir] = contrib
+projects[i18n_translation][version] = 1.13
+
+projects[i18n_string][subdir] = contrib
+projects[i18n_string][version] = 1.13
+
+projects[i18n_block][subdir] = contrib
+projects[i18n_block][version] = 1.13
+; End Multilingual modules.
 
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
