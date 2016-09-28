@@ -13,4 +13,4 @@ projects[new_relic_rpm][subdir] = contrib
 projects[new_relic_rpm][version] = 1.0-alpha1
 
 projects[redis][subdir] = contrib
-projects[redis][version] = 7.x-3.12
+projects[redis][version] = 3.12
