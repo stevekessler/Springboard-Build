@@ -16,7 +16,6 @@ projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
 projects[sbsetup][download][branch] = 7.x-4.x
 
-
 ; Springboard themes
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
@@ -265,6 +264,13 @@ projects[new_relic_rpm][version] = 1.0-alpha2
 ; Libraries
 ;
 
+; Braintree
+libraries[braintree_php][directory_name] = braintree_php
+libraries[braintree_php][type] = library
+libraries[braintree_php][destination] = libraries
+libraries[braintree_php][download][type] = git
+libraries[braintree_php][download][url] = https://github.com/braintree/braintree_php.git
+
 ; FitVids
 libraries[fitvids][directory_name] = fitvids
 libraries[fitvids][type] = library
@@ -345,7 +351,7 @@ projects[salesforce][patch][] = https://raw.github.com/JacksonRiver/Springboard-
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.11.4/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.11.6/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
