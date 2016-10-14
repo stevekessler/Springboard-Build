@@ -383,3 +383,6 @@ projects[node_expire][patch][2762403] = https://www.drupal.org/files/issues/fix_
 
 ; Fix javascript redirect bug with fboauth
 projects[fboauth][patch][2799513] = https://www.drupal.org/files/issues/fix_redirect_uri-2799513-1.patch
+
+; Remove hook_requirements() to prevent error "Call to undefined function views_api_version()"
+projects[views_litepager][patch][1874586]  = https://www.drupal.org/files/issues/views_litepager-site-install-requirements-check-error-1874586-10-D7.patch
