@@ -27,7 +27,7 @@ projects[springboard_themes][download][branch] = 7.x-4.12-rc
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.12-rc
+projects[springboard][download][branch] = 7.x-4.12-rc2
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
