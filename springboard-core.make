@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.44
+projects[drupal][version] = 7.50
 
 ;
 ; The Springboard repos.
@@ -59,7 +59,7 @@ projects[commerce_authnet][subdir] = contrib
 projects[commerce_authnet][version] = 1.1
 
 projects[commerce_cardonfile][subdir] = contrib
-projects[commerce_cardonfile][version] = 2.0-beta1
+projects[commerce_cardonfile][version] = 2.0-beta5
 
 projects[commerce_currency_settings][subdir] = contrib
 projects[commerce_currency_settings][version] = 1.2
@@ -78,6 +78,9 @@ projects[ctools][version] = 1.9
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.8
+
+projects[email_registration][subdir] = contrib
+projects[email_registration][version] = 1.3
 
 projects[encrypt][subdir] = contrib
 projects[encrypt][version] = 1.1
@@ -156,19 +159,19 @@ projects[pm_existing_pages][download][url] = http://git.drupal.org/project/pm_ex
 projects[pm_existing_pages][download][branch] = e0451cc00e9661aaa70feeef35cf79aaf39710f7
 
 projects[panelizer][subdir] = contrib
-projects[panelizer][type] = module
-projects[panelizer][download][type] = git
-projects[panelizer][download][url] = http://git.drupal.org/project/panelizer.git
-projects[panelizer][download][branch] = 8e619d3118f79eaea626f6a1a3742422ac13810c
+projects[panelizer][version] = 3.4
 
 projects[panels][subdir] = contrib
-projects[panels][version] = 3.4
+projects[panels][version] = 3.7
 
 projects[publishcontent][subdir] = contrib
 projects[publishcontent][version] = 1.3
 
 projects[views_data_export][subdir] = contrib
 projects[views_data_export][version] = 3.0-beta8
+
+projects[views_litepager][subdir] = contrib
+projects[views_litepager][version] = 3.0
 
 projects[panels_extra_styles][subdir] = contrib
 projects[panels_extra_styles][version] = 1.1
@@ -351,7 +354,7 @@ projects[salesforce][patch][] = https://raw.github.com/JacksonRiver/Springboard-
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.11.6/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.12/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
@@ -376,3 +379,9 @@ projects[strip_utf8mb4][patch][2654104] = https://www.drupal.org/files/issues/26
 
 ; Fix datetime warnings in node_expire
 projects[node_expire][patch][2762403] = https://www.drupal.org/files/issues/fix_datetime_warnings_for_1.8-2762403-3.patch
+
+; Fix javascript redirect bug with fboauth
+projects[fboauth][patch][2799513] = https://www.drupal.org/files/issues/fix_redirect_uri-2799513-1.patch
+
+; Remove hook_requirements() to prevent error "Call to undefined function views_api_version()"
+projects[views_litepager][patch][1874586]  = https://www.drupal.org/files/issues/views_litepager-site-install-requirements-check-error-1874586-10-D7.patch
