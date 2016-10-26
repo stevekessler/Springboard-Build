@@ -390,4 +390,4 @@ projects[fboauth][patch][2799513] = https://www.drupal.org/files/issues/fix_redi
 projects[views_litepager][patch][1874586]  = https://www.drupal.org/files/issues/views_litepager-site-install-requirements-check-error-1874586-10-D7.patch
 
 ;Use entity_extract_ids to get grouped entity ID instead of getIdentifier() because getIdentifier can return string value.
-projects[og][patch[1880226] = https://www.drupal.org/files/issues/og-use_numeric_id_for_membership_etid-1880226-5.patch
+projects[og][patch][1880226] = https://www.drupal.org/files/issues/og-use_numeric_id_for_membership_etid-1880226-5.patch
