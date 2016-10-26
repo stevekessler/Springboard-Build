@@ -180,7 +180,7 @@ projects[panels_extra_styles][subdir] = contrib
 projects[panels_extra_styles][version] = 1.1
 
 projects[rules][subdir] = contrib
-projects[rules][version] = 2.3
+projects[rules][version] = 2.9
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
@@ -388,3 +388,6 @@ projects[fboauth][patch][2799513] = https://www.drupal.org/files/issues/fix_redi
 
 ; Remove hook_requirements() to prevent error "Call to undefined function views_api_version()"
 projects[views_litepager][patch][1874586]  = https://www.drupal.org/files/issues/views_litepager-site-install-requirements-check-error-1874586-10-D7.patch
+
+;Use entity_extract_ids to get grouped entity ID instead of getIdentifier() because getIdentifier can return string value.
+projects[og][patch[1880226] = https://www.drupal.org/files/issues/og-use_numeric_id_for_membership_etid-1880226-5.patch
