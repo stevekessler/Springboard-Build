@@ -332,9 +332,6 @@ libraries[ckeditor][destination] = libraries
 ; Patches
 ;
 
-; Makes some of Rules UI compatible with jQuery 1.7
-projects[rules][patch][1810656] = http://www.drupal.org/files/rules-jquery_update_compatibility-1810656-37.patch
-
 ; Add idLookup as an option for UPSERT key
 projects[salesforce][patch][1951728] = http://drupal.org/files/salesforce-externalId_and_idLookup-1951728.patch
 
