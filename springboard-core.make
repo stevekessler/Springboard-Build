@@ -385,3 +385,6 @@ projects[fboauth][patch][2799513] = https://www.drupal.org/files/issues/fix_redi
 
 ; Remove hook_requirements() to prevent error "Call to undefined function views_api_version()"
 projects[views_litepager][patch][1874586]  = https://www.drupal.org/files/issues/views_litepager-site-install-requirements-check-error-1874586-10-D7.patch
+
+; Support new mastercard BIN range
+projects[commerce][patch][2786393] = https://www.drupal.org/files/issues/new-mastercard-bin-2786393-2.patch
