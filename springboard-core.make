@@ -52,6 +52,9 @@ projects[addressfield][version] = 1.1
 projects[blockreference][subdir] = contrib
 projects[blockreference][version] = 1.16
 
+projects[captcha][subdir] = contrib
+projects[captcha][version] = 1.3
+
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.11
 
