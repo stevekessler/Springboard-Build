@@ -385,3 +385,6 @@ projects[fboauth][patch][2799513] = https://www.drupal.org/files/issues/fix_redi
 
 ; Remove hook_requirements() to prevent error "Call to undefined function views_api_version()"
 projects[views_litepager][patch][1874586]  = https://www.drupal.org/files/issues/views_litepager-site-install-requirements-check-error-1874586-10-D7.patch
+
+; Replace webform filter functions with more performant ones from webform 4 module.
+projects[webform][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x-performance_tweaks/patches/webform_filter_values.patch
