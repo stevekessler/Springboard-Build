@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.52
+projects[drupal][version] = 7.53
 
 ;
 ; The Springboard repos.
@@ -354,7 +354,7 @@ projects[salesforce][patch][] = https://raw.github.com/JacksonRiver/Springboard-
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.12.4/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.12.5/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
