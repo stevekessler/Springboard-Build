@@ -4,7 +4,7 @@ core = 7.x
 
 ; Drupal
 projects[drupal][type] = core
-projects[drupal][version] = 7.52
+projects[drupal][version] = 7.53
 
 ;
 ; The Springboard repos.
