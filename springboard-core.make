@@ -49,6 +49,9 @@ libraries[springboard_composer_dependencies][download][url] = git://github.com/J
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.1
 
+projects[apdqc][subdir] = contrib
+projects[apdqc][version] = 1.0-rc3
+
 projects[blockreference][subdir] = contrib
 projects[blockreference][version] = 1.16
 
