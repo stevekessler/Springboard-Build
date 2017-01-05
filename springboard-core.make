@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.x
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x
+projects[springboard][download][branch] = 7.x-4.x_936_quick-donate-multi-address
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
@@ -72,6 +72,9 @@ projects[context][version] = 3.6
 
 projects[conditional_fields][subdir] = contrib
 projects[conditional_fields][version] = 3.0-alpha1
+
+projects[countries][subdir] = contrib
+projects[countries][version] = 2.3
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.9
