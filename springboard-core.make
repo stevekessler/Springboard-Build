@@ -12,35 +12,35 @@ projects[drupal][version] = 7.53
 
 ; Springboard profile
 projects[sbsetup][type] = profile
-projects[sbsetup][download][type] = git
-projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
+projects[sbsetup][download][type] = url
+projects[sbsetup][download][url] = https://github.com/JacksonRiver/springboard.git
 projects[sbsetup][download][branch] = 7.x-4.x
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
-projects[springboard_themes][download][type] = git
-projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
+projects[springboard_themes][download][type] = url
+projects[springboard_themes][download][url] = https://github.com/JacksonRiver/springboard-themes.git
 projects[springboard_themes][download][branch] = 7.x-4.x
 
 ; Springboard Modules
 projects[springboard][type] = module
-projects[springboard][download][type] = git
-projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
+projects[springboard][download][type] = url
+projects[springboard][download][url] = https://github.com/JacksonRiver/springboard_modules.git
 projects[springboard][download][branch] = 7.x-4.x
 
 ; Springboard-sdk-php
 libraries[springboard_sdk_php][directory_name] = springboard_advocacy
 libraries[springboard_sdk_php][type] = library
 libraries[springboard_sdk_php][destination] = libraries
-libraries[springboard_sdk_php][download][type] = git
-libraries[springboard_sdk_php][download][url] = git://github.com/JacksonRiver/springboard-sdk-php.git
+libraries[springboard_sdk_php][download][type] = url
+libraries[springboard_sdk_php][download][url] = https://github.com/JacksonRiver/springboard-sdk-php.git
 
 ; Springboard Composer dependencies
 libraries[springboard_composer_dependencies][directory_name] = springboard_composer
 libraries[springboard_composer_dependencies][type] = library
 libraries[springboard_composer_dependencies][destination] = libraries
-libraries[springboard_composer_dependencies][download][type] = git
-libraries[springboard_composer_dependencies][download][url] = git://github.com/JacksonRiver/springboard-composer-vendor.git
+libraries[springboard_composer_dependencies][download][type] = url 
+libraries[springboard_composer_dependencies][download][url] = https://github.com/JacksonRiver/springboard-composer-vendor.git
 
 ;
 ; Contrib modules
@@ -285,28 +285,28 @@ libraries[fitvids][download][url] = https://raw.githubusercontent.com/davatron50
 libraries[litle][directory_name] = litle
 libraries[litle][destination] = libraries
 libraries[litle][download][type] = git
-libraries[litle][download][url] = git://github.com/JacksonRiver/litle-sdk-for-php.git
+libraries[litle][download][url] = https://github.com/JacksonRiver/litle-sdk-for-php.git
 libraries[litle][download][branch] = jacksonriver-8.27_ssl_update
 
 ; Mobile Detect
 libraries[mobiledetect][directory_name] = mobiledetect
 libraries[mobiledetect][destination] = libraries
 libraries[mobiledetect][download][type] = git
-libraries[mobiledetect][download][url] = git://github.com/serbanghita/Mobile-Detect
+libraries[mobiledetect][download][url] = https://github.com/serbanghita/Mobile-Detect.git
 libraries[mobiledetect][download][branch] = 7a94b349c761503598c325d3e49bbcdd55c5c55e
 
 ; PHP User Agent
 libraries[phpuseragent][directory_name] = phpuseragent
 libraries[phpuseragent][destination] = libraries
 libraries[phpuseragent][download][type] = git
-libraries[phpuseragent][download][url] = git://github.com/donatj/PhpUserAgent
+libraries[phpuseragent][download][url] = https://github.com/donatj/PhpUserAgent.git
 libraries[phpuseragent][download][branch] = 1acea75664179c8f0dcd57ced7e75a01af86bfa8
 
 ; Salesforce
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
 libraries[salesforce][download][type] = git
-libraries[salesforce][download][url] = git://github.com/developerforce/Force.com-Toolkit-for-PHP
+libraries[salesforce][download][url] = https://github.com/developerforce/Force.com-Toolkit-for-PHP.git
 ; Older version, before soap bug
 ;libraries[salesforce][download][branch] = 0b1f2d78ce66249f4a9b8d6cb4dfeb07a182e7d7
 ; Newer version, contains soap bug
